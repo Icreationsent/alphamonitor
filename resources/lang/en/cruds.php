@@ -223,4 +223,20 @@ return [
             'pu_helper'         => ' ',
         ],
     ],
+    'lga' => [
+        'title'          => 'L.G.A',
+        'title_singular' => 'L.G.A',
+        'fields'         => [
+            'id'                => 'ID',
+            'id_helper'         => ' ',
+            'name'              => 'Name',
+            'name_helper'       => ' ',
+            'created_at'        => 'Created at',
+            'created_at_helper' => ' ',
+            'updated_at'        => 'Updated at',
+            'updated_at_helper' => ' ',
+            'deleted_at'        => 'Deleted at',
+            'deleted_at_helper' => ' ',
+        ],
+    ],
 ];

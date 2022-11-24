@@ -141,6 +141,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+
+
     <script>
         $(function() {
   let copyButtonTrans = '{{ trans('global.datatables.copy') }}'
@@ -335,6 +337,59 @@
     });
 });
 
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            load_json_data('lga');
+            function load_json_data(id, parent_id)
+            {
+                var html_code = '';
+                $.getJSON('../../wards.json', function(data){
+                    html_code += '<option value="">Select '+id+'</option>';
+                    $.each(data, function(key, value){
+                        if(id == 'lga')
+                        {
+                            if(value.parent_id == '0')
+                            {
+                                html_code += '<option value="'+value.id+'">'+value.name+'</option>';
+                            }
+                        }
+                        else
+                        {
+                            if(value.parent_id == parent_id)
+                            {
+                                html_code += '<option value="'+value.id+'">'+value.name+'</option>';
+                            }
+                        }
+                    });
+                    $('#'+id).html(html_code);
+                });
+            }
+            $(document).on('change', '#lga', function(){
+                var lga_id = $(this).val();
+                if(lga_id != '')
+                {
+                    load_json_data('ward', lga_id);
+                }
+                else
+                {
+                    $('#ward').html('<option value="">Select Local ward</option>');
+                    $('#pooling_unit').html('<option value="">Select Polling Unit</option>');
+                }
+            });
+            $(document).on('change', '#ward', function(){
+                var ward_id = $(this).val();
+                if(ward_id != '')
+                {
+                    load_json_data('pooling_unit', ward_id);
+                }
+                else
+                {
+                    $('#pooling_unit_id').html('<option value="">Select Polling Unit</option>');
+                }
+            });
+        });
     </script>
     @yield('scripts')
 </body>

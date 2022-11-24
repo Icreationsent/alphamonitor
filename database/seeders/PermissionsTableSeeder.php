@@ -184,6 +184,26 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 44,
+                'title' => 'lga_create',
+            ],
+            [
+                'id'    => 45,
+                'title' => 'lga_edit',
+            ],
+            [
+                'id'    => 46,
+                'title' => 'lga_show',
+            ],
+            [
+                'id'    => 47,
+                'title' => 'lga_delete',
+            ],
+            [
+                'id'    => 48,
+                'title' => 'lga_access',
+            ],
+            [
+                'id'    => 49,
                 'title' => 'profile_password_edit',
             ],
         ];

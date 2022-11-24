@@ -24,8 +24,6 @@
             <li class="c-sidebar-nav-item">
                 <a href="{{ route("admin.parties.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/parties") || request()->is("admin/parties/*") ? "c-active" : "" }}">
                     <i class="fa-fw fas fa-flag c-sidebar-nav-icon">
-{{--                        <i class="cil-flag-alt c-sidebar-nav-icon"></i>--}}
-
 
                     </i>
                     {{ trans('cruds.party.title') }}
@@ -115,7 +113,7 @@
             </li>
         @endcan
         @can('location_access')
-            <li class="c-sidebar-nav-dropdown {{ request()->is("admin/pooling-units*") ? "c-show" : "" }}">
+            <li class="c-sidebar-nav-dropdown {{ request()->is("admin/pooling-units*") ? "c-show" : "" }} {{ request()->is("admin/lgas*") ? "c-show" : "" }}">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="fa-fw fas fa-users c-sidebar-nav-icon">
 
@@ -130,6 +128,16 @@
 
                                 </i>
                                 {{ trans('cruds.poolingUnit.title') }}
+                            </a>
+                        </li>
+                    @endcan
+                    @can('lga_access')
+                        <li class="c-sidebar-nav-item">
+                            <a href="{{ route("admin.lgas.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/lgas") || request()->is("admin/lgas/*") ? "c-active" : "" }}">
+                                <i class="fa-fw fas fa-cogs c-sidebar-nav-icon">
+
+                                </i>
+                                {{ trans('cruds.lga.title') }}
                             </a>
                         </li>
                     @endcan

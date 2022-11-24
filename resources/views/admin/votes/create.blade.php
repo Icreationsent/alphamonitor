@@ -12,19 +12,26 @@
             <div class="form-group">
                 <label class="required" for="lga">{{ trans('cruds.vote.fields.lga') }}</label>
                 <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
-                    @php
-                        $name = App\Models\User::all();
-                    @endphp
-                @if(Auth::user()->id != 1 )
-
-                    @foreach($name as $value)
-                            <option class="form-control">{{ $value->name }}</option>
-                    @endforeach
-
-                @elseif( Auth::user()->id == 1)
-                        <option>{{ Auth::user()->name }}</option
-                @endif
+                     <option class="form-control">Select Local Government Area</option>
                 </select>
+{{--                    @php--}}
+{{--                        $name = App\Models\Lga::all();--}}
+{{--                    @endphp--}}
+{{--                @if(Auth::user()->id == 1 )--}}
+{{--                    <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">--}}
+{{--                        <option class="form-control">Select Local Government Area</option>--}}
+{{--                    @foreach($name as $value)--}}
+
+{{--                            <option class="form-control">{{ $value->name }}</option>--}}
+
+{{--                    @endforeach--}}
+{{--                    </select>--}}
+{{--                @elseif( Auth::user()->id !== 1)--}}
+{{--                    <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">--}}
+{{--                        <option class="form-control">{{ Auth::user()->name }}</option>--}}
+{{--                    </select>--}}
+{{--                @endif--}}
+{{--                </select>--}}
                 @if($errors->has('lga'))
                     <div class="invalid-feedback">
                         {{ $errors->first('lga') }}
@@ -34,7 +41,10 @@
             </div>
             <div class="form-group">
                 <label class="required" for="ward">{{ trans('cruds.vote.fields.ward') }}</label>
-                <input class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}" required>
+                <select class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}" required>
+
+                    <option>Select Local ward</option>
+                </select>
                 @if($errors->has('ward'))
                     <div class="invalid-feedback">
                         {{ $errors->first('ward') }}
@@ -44,7 +54,9 @@
             </div>
             <div class="form-group">
                 <label class="required" for="pooling_unit">{{ trans('cruds.vote.fields.pooling_unit') }}</label>
-                <input class="form-control {{ $errors->has('pooling_unit') ? 'is-invalid' : '' }}" type="text" name="pooling_unit" id="pooling_unit" value="{{ old('pooling_unit', '') }}" required>
+                <select class="form-control {{ $errors->has('pooling_unit') ? 'is-invalid' : '' }}" type="text" name="pooling_unit" id="pooling_unit" value="{{ old('pooling_unit', '') }}" required>
+                    <option>Select Polling Unit</option>
+                </select>
                 @if($errors->has('pooling_unit'))
                     <div class="invalid-feedback">
                         {{ $errors->first('pooling_unit') }}
@@ -64,7 +76,7 @@
             </div>
             <div class="form-group">
                 <label class="required" for="phone">{{ trans('cruds.vote.fields.phone') }}</label>
-                <input class="form-control {{ $errors->has('phone') ? 'is-invalid' : '' }}" type="number" name="phone" id="phone" value="{{ old('phone', '') }}" step="1" required>
+                <input class="form-control {{ $errors->has('phone') ? 'is-invalid' : '' }}" type="tel" name="phone" id="phone" value="{{ old('phone', '') }}" step="1" required>
                 @if($errors->has('phone'))
                     <div class="invalid-feedback">
                         {{ $errors->first('phone') }}
@@ -74,7 +86,19 @@
             </div>
             <div class="form-group">
                 <label class="required" for="party">{{ trans('cruds.vote.fields.party') }}</label>
-                <input class="form-control {{ $errors->has('party') ? 'is-invalid' : '' }}" type="text" name="party" id="party" value="{{ old('party', '') }}" required>
+                <select class="form-control {{ $errors->has('party') ? 'is-invalid' : '' }}" type="text" name="party" id="party" value="{{ old('party', '') }}" required>
+
+                    <option>Select Party</option>
+                    @php
+                        $party = App\Models\Party::all();
+                    @endphp
+                    @foreach($party as $value)
+
+                            <option>{{ $value->name }}</option>
+
+                    @endforeach
+
+                </select>
                 @if($errors->has('party'))
                     <div class="invalid-feedback">
                         {{ $errors->first('party') }}
@@ -100,6 +124,7 @@
         </form>
     </div>
 </div>
+
 
 
 

@@ -1,0 +1,7957 @@
+[
+    {
+        "id": "52",
+        "name": "ANINRI",
+        "parent_id": "0"
+    },
+    {
+        "id": "73",
+        "name": "AWGU",
+        "parent_id": "0"
+    },
+    {
+        "id": "191",
+        "name": "ENUGU EAST",
+        "parent_id": "0"
+    },
+    {
+        "id": "192",
+        "name": "ENUGU NORTH",
+        "parent_id": "0"
+    },
+    {
+        "id": "193",
+        "name": "ENUGU SOUTH",
+        "parent_id": "0"
+    },
+    {
+        "id": "213",
+        "name": "EZEAGU",
+        "parent_id": "0"
+    },
+    {
+        "id": "308",
+        "name": "IGBO ETITI",
+        "parent_id": "0"
+    },
+    {
+        "id": "309",
+        "name": "IGBO EZE NORTH",
+        "parent_id": "0"
+    },
+    {
+        "id": "310",
+        "name": "IGBO EZE SOUTH",
+        "parent_id": "0"
+    },
+    {
+        "id": "362",
+        "name": "ISI UZO",
+        "parent_id": "0"
+    },
+    {
+        "id": "533",
+        "name": "NKANU EAST",
+        "parent_id": "0"
+    },
+    {
+        "id": "534",
+        "name": "NKANU WEST",
+        "parent_id": "0"
+    },
+    {
+        "id": "541",
+        "name": "NSUKKA",
+        "parent_id": "0"
+    },
+    {
+        "id": "579",
+        "name": "OJI-RIVER",
+        "parent_id": "0"
+    },
+    {
+        "id": "716",
+        "name": "UDENU",
+        "parent_id": "0"
+    },
+    {
+        "id": "717",
+        "name": "UDI",
+        "parent_id": "0"
+    },
+    {
+        "id": "739",
+        "name": "UZO-UWANI",
+        "parent_id": "0"
+    },
+    {
+        "id": "5535",
+        "name": "MPU",
+        "parent_id": "52"
+    },
+    {
+        "id": "5645",
+        "name": "NDEABO",
+        "parent_id": "52"
+    },
+    {
+        "id": "5810",
+        "name": "NNENWE I",
+        "parent_id": "52"
+    },
+    {
+        "id": "5811",
+        "name": "NNENWE II",
+        "parent_id": "52"
+    },
+    {
+        "id": "5812",
+        "name": "NNENWE III",
+        "parent_id": "52"
+    },
+    {
+        "id": "6100",
+        "name": "ODUMA I",
+        "parent_id": "52"
+    },
+    {
+        "id": "6101",
+        "name": "ODUMA II",
+        "parent_id": "52"
+    },
+    {
+        "id": "6102",
+        "name": "ODUMA III",
+        "parent_id": "52"
+    },
+    {
+        "id": "6103",
+        "name": "ODUMA IV",
+        "parent_id": "52"
+    },
+    {
+        "id": "6491",
+        "name": "OKPANKU",
+        "parent_id": "52"
+    },
+    {
+        "id": "251",
+        "name": "AGBOGUGU",
+        "parent_id": "73"
+    },
+    {
+        "id": "726",
+        "name": "ANIKENANO/UGWUEME",
+        "parent_id": "73"
+    },
+    {
+        "id": "944",
+        "name": "AWGU I",
+        "parent_id": "73"
+    },
+    {
+        "id": "945",
+        "name": "AWGU II",
+        "parent_id": "73"
+    },
+    {
+        "id": "3395",
+        "name": "IHE",
+        "parent_id": "73"
+    },
+    {
+        "id": "3958",
+        "name": "ISU AWA/OGUGU/AGBUDU/ITUKU",
+        "parent_id": "73"
+    },
+    {
+        "id": "5466",
+        "name": "MGBIDI/MMAKU",
+        "parent_id": "73"
+    },
+    {
+        "id": "5470",
+        "name": "MGBOWO",
+        "parent_id": "73"
+    },
+    {
+        "id": "5926",
+        "name": "OBEAGU",
+        "parent_id": "73"
+    },
+    {
+        "id": "6143",
+        "name": "OGBAKU",
+        "parent_id": "73"
+    },
+    {
+        "id": "6956",
+        "name": "OWELLI/AMOLI/UGBO/OGUGU",
+        "parent_id": "73"
+    },
+    {
+        "id": "36",
+        "name": "ABAKPA I",
+        "parent_id": "191"
+    },
+    {
+        "id": "37",
+        "name": "ABAKPA II",
+        "parent_id": "191"
+    },
+    {
+        "id": "678",
+        "name": "AMORJI",
+        "parent_id": "191"
+    },
+    {
+        "id": "3122",
+        "name": "IBAGWA-NIKE/EDEM",
+        "parent_id": "191"
+    },
+    {
+        "id": "5438",
+        "name": "MBULUIYIUKWU",
+        "parent_id": "191"
+    },
+    {
+        "id": "5439",
+        "name": "MBULU-NJODO EAST",
+        "parent_id": "191"
+    },
+    {
+        "id": "5440",
+        "name": "MBULU-NJODO WEST",
+        "parent_id": "191"
+    },
+    {
+        "id": "5441",
+        "name": "MBULUOWEHE",
+        "parent_id": "191"
+    },
+    {
+        "id": "7769",
+        "name": "TRANS-EKULU",
+        "parent_id": "191"
+    },
+    {
+        "id": "8014",
+        "name": "UGWUGO NIKE",
+        "parent_id": "191"
+    },
+    {
+        "id": "8129",
+        "name": "UMUCHIGBO",
+        "parent_id": "191"
+    },
+    {
+        "id": "8145",
+        "name": "UMUENWENE",
+        "parent_id": "191"
+    },
+    {
+        "id": "837",
+        "name": "ASATA TOWNSHIP",
+        "parent_id": "192"
+    },
+    {
+        "id": "1559",
+        "name": "CHINA TOWN",
+        "parent_id": "192"
+    },
+    {
+        "id": "2547",
+        "name": "G.R.A",
+        "parent_id": "192"
+    },
+    {
+        "id": "2921",
+        "name": "GUI NEWLAYOUT",
+        "parent_id": "192"
+    },
+    {
+        "id": "3403",
+        "name": "IHEWUZI",
+        "parent_id": "192"
+    },
+    {
+        "id": "3764",
+        "name": "INDEPENDENCE LAYOUT",
+        "parent_id": "192"
+    },
+    {
+        "id": "5704",
+        "name": "NEW HAVEN",
+        "parent_id": "192"
+    },
+    {
+        "id": "6158",
+        "name": "OGBETTE EAST",
+        "parent_id": "192"
+    },
+    {
+        "id": "6159",
+        "name": "OGBETTE WEST",
+        "parent_id": "192"
+    },
+    {
+        "id": "6244",
+        "name": "OGUI TOWNSHIP",
+        "parent_id": "192"
+    },
+    {
+        "id": "6724",
+        "name": "ONU-ASATA",
+        "parent_id": "192"
+    },
+    {
+        "id": "7935",
+        "name": "UDI SIDING/IVA VALLEY",
+        "parent_id": "192"
+    },
+    {
+        "id": "8186",
+        "name": "UMUNEVO",
+        "parent_id": "192"
+    },
+    {
+        "id": "114",
+        "name": "ACHARA LAYOUT EAST",
+        "parent_id": "193"
+    },
+    {
+        "id": "115",
+        "name": "ACHARA LAYOUT WEST",
+        "parent_id": "193"
+    },
+    {
+        "id": "503",
+        "name": "AKWUKE",
+        "parent_id": "193"
+    },
+    {
+        "id": "658",
+        "name": "AMECHI I",
+        "parent_id": "193"
+    },
+    {
+        "id": "659",
+        "name": "AMECHI II",
+        "parent_id": "193"
+    },
+    {
+        "id": "959",
+        "name": "AWKUNANAW EAST",
+        "parent_id": "193"
+    },
+    {
+        "id": "960",
+        "name": "AWKUNANAW WEST",
+        "parent_id": "193"
+    },
+    {
+        "id": "5256",
+        "name": "MARYLAND",
+        "parent_id": "193"
+    },
+    {
+        "id": "5928",
+        "name": "OBEAGU I",
+        "parent_id": "193"
+    },
+    {
+        "id": "5929",
+        "name": "OBEAGU II",
+        "parent_id": "193"
+    },
+    {
+        "id": "8011",
+        "name": "UGWUAJI",
+        "parent_id": "193"
+    },
+    {
+        "id": "8353",
+        "name": "UWANI EAST",
+        "parent_id": "193"
+    },
+    {
+        "id": "8354",
+        "name": "UWANI WEST",
+        "parent_id": "193"
+    },
+    {
+        "id": "224",
+        "name": "AGBA UMANA",
+        "parent_id": "213"
+    },
+    {
+        "id": "310",
+        "name": "AGUOBU (UMUMBA)",
+        "parent_id": "213"
+    },
+    {
+        "id": "311",
+        "name": "AGUOBU-OWA 1",
+        "parent_id": "213"
+    },
+    {
+        "id": "312",
+        "name": "AGUOBU-OWA 11",
+        "parent_id": "213"
+    },
+    {
+        "id": "946",
+        "name": "AWHA",
+        "parent_id": "213"
+    },
+    {
+        "id": "3744",
+        "name": "IMEZI OWA I",
+        "parent_id": "213"
+    },
+    {
+        "id": "3745",
+        "name": "IMEZI OWA II",
+        "parent_id": "213"
+    },
+    {
+        "id": "4026",
+        "name": "IWOLLO",
+        "parent_id": "213"
+    },
+    {
+        "id": "5457",
+        "name": "MGBAGBU OWA I",
+        "parent_id": "213"
+    },
+    {
+        "id": "5458",
+        "name": "MGBAGBU OWA III",
+        "parent_id": "213"
+    },
+    {
+        "id": "5459",
+        "name": "MGBAGBU OWA II",
+        "parent_id": "213"
+    },
+    {
+        "id": "5925",
+        "name": "OBE AGU UMANA",
+        "parent_id": "213"
+    },
+    {
+        "id": "5957",
+        "name": "OBINOFIA",
+        "parent_id": "213"
+    },
+    {
+        "id": "6205",
+        "name": "OGHE I",
+        "parent_id": "213"
+    },
+    {
+        "id": "6206",
+        "name": "OGHE II",
+        "parent_id": "213"
+    },
+    {
+        "id": "6507",
+        "name": "OKPOGHO",
+        "parent_id": "213"
+    },
+    {
+        "id": "6590",
+        "name": "OLO/AMAGU UMULOKPA I",
+        "parent_id": "213"
+    },
+    {
+        "id": "8083",
+        "name": "ULO/AMAGU/UMULOKPA II",
+        "parent_id": "213"
+    },
+    {
+        "id": "8087",
+        "name": "UMANA NDIAGU",
+        "parent_id": "213"
+    },
+    {
+        "id": "8175",
+        "name": "UMUMBA NDIUMO",
+        "parent_id": "213"
+    },
+    {
+        "id": "472",
+        "name": "AKU I",
+        "parent_id": "308"
+    },
+    {
+        "id": "473",
+        "name": "AKU II",
+        "parent_id": "308"
+    },
+    {
+        "id": "474",
+        "name": "AKU III",
+        "parent_id": "308"
+    },
+    {
+        "id": "475",
+        "name": "AKU IV",
+        "parent_id": "308"
+    },
+    {
+        "id": "476",
+        "name": "AKU V (IDUEME)",
+        "parent_id": "308"
+    },
+    {
+        "id": "1835",
+        "name": "DIOGBE/UMUNKO",
+        "parent_id": "308"
+    },
+    {
+        "id": "2134",
+        "name": "EJUOHA/UDEME",
+        "parent_id": "308"
+    },
+    {
+        "id": "2190",
+        "name": "EKWEGBE I",
+        "parent_id": "308"
+    },
+    {
+        "id": "2191",
+        "name": "EKWEGBE II",
+        "parent_id": "308"
+    },
+    {
+        "id": "3537",
+        "name": "IKOLO/OHEBE",
+        "parent_id": "308"
+    },
+    {
+        "id": "6278",
+        "name": "OHAODO I",
+        "parent_id": "308"
+    },
+    {
+        "id": "6279",
+        "name": "OHAODO II",
+        "parent_id": "308"
+    },
+    {
+        "id": "6732",
+        "name": "ONYOHOR/OCHIMA/IDOHA",
+        "parent_id": "308"
+    },
+    {
+        "id": "7017",
+        "name": "OZALLA I",
+        "parent_id": "308"
+    },
+    {
+        "id": "7018",
+        "name": "OZALLA II",
+        "parent_id": "308"
+    },
+    {
+        "id": "8038",
+        "name": "UKEHE I",
+        "parent_id": "308"
+    },
+    {
+        "id": "8039",
+        "name": "UKEHE II",
+        "parent_id": "308"
+    },
+    {
+        "id": "8040",
+        "name": "UKEHE III",
+        "parent_id": "308"
+    },
+    {
+        "id": "8041",
+        "name": "UKEHE IV",
+        "parent_id": "308"
+    },
+    {
+        "id": "8042",
+        "name": "UKEHE V",
+        "parent_id": "308"
+    },
+    {
+        "id": "2323",
+        "name": "ESSODO 1",
+        "parent_id": "309"
+    },
+    {
+        "id": "2324",
+        "name": "ESSODO 11",
+        "parent_id": "309"
+    },
+    {
+        "id": "2325",
+        "name": "ESSODO 111",
+        "parent_id": "309"
+    },
+    {
+        "id": "2356",
+        "name": "ETTE 1",
+        "parent_id": "309"
+    },
+    {
+        "id": "2357",
+        "name": "ETTE 11",
+        "parent_id": "309"
+    },
+    {
+        "id": "2358",
+        "name": "ETTE CENTRAL",
+        "parent_id": "309"
+    },
+    {
+        "id": "2427",
+        "name": "EZZODO",
+        "parent_id": "309"
+    },
+    {
+        "id": "8164",
+        "name": "UMUITODO I",
+        "parent_id": "309"
+    },
+    {
+        "id": "8165",
+        "name": "UMUITODO II",
+        "parent_id": "309"
+    },
+    {
+        "id": "8166",
+        "name": "UMUITODO III",
+        "parent_id": "309"
+    },
+    {
+        "id": "8220",
+        "name": "UMUOZZI I",
+        "parent_id": "309"
+    },
+    {
+        "id": "8221",
+        "name": "UMUOZZI II",
+        "parent_id": "309"
+    },
+    {
+        "id": "8222",
+        "name": "UMUOZZI III",
+        "parent_id": "309"
+    },
+    {
+        "id": "8223",
+        "name": "UMUOZZI IV",
+        "parent_id": "309"
+    },
+    {
+        "id": "8224",
+        "name": "UMUOZZI IX",
+        "parent_id": "309"
+    },
+    {
+        "id": "8225",
+        "name": "UMUOZZI V",
+        "parent_id": "309"
+    },
+    {
+        "id": "8226",
+        "name": "UMUOZZI VI",
+        "parent_id": "309"
+    },
+    {
+        "id": "8227",
+        "name": "UMUOZZI VII",
+        "parent_id": "309"
+    },
+    {
+        "id": "8228",
+        "name": "UMUOZZI VIII",
+        "parent_id": "309"
+    },
+    {
+        "id": "8229",
+        "name": "UMUOZZI X",
+        "parent_id": "309"
+    },
+    {
+        "id": "573",
+        "name": "ALOR AGU",
+        "parent_id": "310"
+    },
+    {
+        "id": "657",
+        "name": "AMEBO /HAUSA/ YORUBA",
+        "parent_id": "310"
+    },
+    {
+        "id": "2011",
+        "name": "ECHARA",
+        "parent_id": "310"
+    },
+    {
+        "id": "2384",
+        "name": "EZEMA WARD",
+        "parent_id": "310"
+    },
+    {
+        "id": "3397",
+        "name": "IHEAKA (LIKKI/AKUTARA WARD)",
+        "parent_id": "310"
+    },
+    {
+        "id": "3398",
+        "name": "IHEAKA (UGO AKOYI)",
+        "parent_id": "310"
+    },
+    {
+        "id": "3399",
+        "name": "IHEAKPU (AJUONA OGBAGU WARD)",
+        "parent_id": "310"
+    },
+    {
+        "id": "3400",
+        "name": "IHEAKPU (EZZI NGWU WARD)",
+        "parent_id": "310"
+    },
+    {
+        "id": "3981",
+        "name": "ITCHI/UWANI I",
+        "parent_id": "310"
+    },
+    {
+        "id": "3982",
+        "name": "ITCHI/UWANI II",
+        "parent_id": "310"
+    },
+    {
+        "id": "5778",
+        "name": "NKALAGU OBUKPA",
+        "parent_id": "310"
+    },
+    {
+        "id": "6941",
+        "name": "OVOKO (AJUONA WARD)",
+        "parent_id": "310"
+    },
+    {
+        "id": "6942",
+        "name": "OVOKO (UMUELO/OVOKO AGU WARD)",
+        "parent_id": "310"
+    },
+    {
+        "id": "6943",
+        "name": "OVOKO (UMULOLO WARD)",
+        "parent_id": "310"
+    },
+    {
+        "id": "8026",
+        "name": "UHUNOWERRE",
+        "parent_id": "310"
+    },
+    {
+        "id": "8233",
+        "name": "UNADU",
+        "parent_id": "310"
+    },
+    {
+        "id": "2107",
+        "name": "EHAMUFU I",
+        "parent_id": "362"
+    },
+    {
+        "id": "2108",
+        "name": "EHAMUFU II",
+        "parent_id": "362"
+    },
+    {
+        "id": "2109",
+        "name": "EHAMUFU III",
+        "parent_id": "362"
+    },
+    {
+        "id": "2110",
+        "name": "EHAMUFU IV",
+        "parent_id": "362"
+    },
+    {
+        "id": "3497",
+        "name": "IKEM I",
+        "parent_id": "362"
+    },
+    {
+        "id": "3498",
+        "name": "IKEM II",
+        "parent_id": "362"
+    },
+    {
+        "id": "5429",
+        "name": "MBU I",
+        "parent_id": "362"
+    },
+    {
+        "id": "5430",
+        "name": "MBU II",
+        "parent_id": "362"
+    },
+    {
+        "id": "5691",
+        "name": "NEKE I",
+        "parent_id": "362"
+    },
+    {
+        "id": "5692",
+        "name": "NEKE II",
+        "parent_id": "362"
+    },
+    {
+        "id": "8116",
+        "name": "UMUALOR",
+        "parent_id": "362"
+    },
+    {
+        "id": "462",
+        "name": "AKPOFU/ISIENU/AMAGUNZE",
+        "parent_id": "533"
+    },
+    {
+        "id": "626",
+        "name": "AMANKANU/OGBAHU",
+        "parent_id": "533"
+    },
+    {
+        "id": "660",
+        "name": "AMECHI/IDODO/ORUKU",
+        "parent_id": "533"
+    },
+    {
+        "id": "3422",
+        "name": "IHUOKPARA",
+        "parent_id": "533"
+    },
+    {
+        "id": "5442",
+        "name": "MBURUBU",
+        "parent_id": "533"
+    },
+    {
+        "id": "5596",
+        "name": "NARA I",
+        "parent_id": "533"
+    },
+    {
+        "id": "5597",
+        "name": "NARA II",
+        "parent_id": "533"
+    },
+    {
+        "id": "5781",
+        "name": "NKEREFI I",
+        "parent_id": "533"
+    },
+    {
+        "id": "5782",
+        "name": "NKEREFI II",
+        "parent_id": "533"
+    },
+    {
+        "id": "5821",
+        "name": "NOMEH",
+        "parent_id": "533"
+    },
+    {
+        "id": "6289",
+        "name": "OHUANI/ONICHA-AGU",
+        "parent_id": "533"
+    },
+    {
+        "id": "6968",
+        "name": "OWO",
+        "parent_id": "533"
+    },
+    {
+        "id": "7965",
+        "name": "UGBAWKA I",
+        "parent_id": "533"
+    },
+    {
+        "id": "7966",
+        "name": "UGBAWKA II",
+        "parent_id": "533"
+    },
+    {
+        "id": "240",
+        "name": "AGBANI",
+        "parent_id": "534"
+    },
+    {
+        "id": "427",
+        "name": "AKEGBE-UGWU (OKWUO)",
+        "parent_id": "534"
+    },
+    {
+        "id": "467",
+        "name": "AKPUGO II",
+        "parent_id": "534"
+    },
+    {
+        "id": "468",
+        "name": "AKPUGO III",
+        "parent_id": "534"
+    },
+    {
+        "id": "483",
+        "name": "AKUGBO IV",
+        "parent_id": "534"
+    },
+    {
+        "id": "673",
+        "name": "AMODU",
+        "parent_id": "534"
+    },
+    {
+        "id": "697",
+        "name": "AMURRI",
+        "parent_id": "534"
+    },
+    {
+        "id": "3197",
+        "name": "IBITE AKEGBE UGWU",
+        "parent_id": "534"
+    },
+    {
+        "id": "5673",
+        "name": "NDIUNO UWANI (AKPUGO I)",
+        "parent_id": "534"
+    },
+    {
+        "id": "5924",
+        "name": "OBE",
+        "parent_id": "534"
+    },
+    {
+        "id": "5956",
+        "name": "OBINAGU UWANI (AKPUGO I)",
+        "parent_id": "534"
+    },
+    {
+        "id": "6003",
+        "name": "OBUOFFIA",
+        "parent_id": "534"
+    },
+    {
+        "id": "7016",
+        "name": "OZALLA",
+        "parent_id": "534"
+    },
+    {
+        "id": "8146",
+        "name": "UMUEZE",
+        "parent_id": "534"
+    },
+    {
+        "id": "247",
+        "name": "AGBEMEBE/UMABOR",
+        "parent_id": "541"
+    },
+    {
+        "id": "408",
+        "name": "AKALITE",
+        "parent_id": "541"
+    },
+    {
+        "id": "447",
+        "name": "AKPA/OZZI",
+        "parent_id": "541"
+    },
+    {
+        "id": "574",
+        "name": "ALOR-UNO",
+        "parent_id": "541"
+    },
+    {
+        "id": "2019",
+        "name": "EDEM-ANI",
+        "parent_id": "541"
+    },
+    {
+        "id": "2023",
+        "name": "EDE-NTA",
+        "parent_id": "541"
+    },
+    {
+        "id": "2024",
+        "name": "EDE-UKWU",
+        "parent_id": "541"
+    },
+    {
+        "id": "2111",
+        "name": "EHA-NDIAGU",
+        "parent_id": "541"
+    },
+    {
+        "id": "2113",
+        "name": "EHA-UNO",
+        "parent_id": "541"
+    },
+    {
+        "id": "2135",
+        "name": "EJUONA/UWANI",
+        "parent_id": "541"
+    },
+    {
+        "id": "3121",
+        "name": "IBAGWANI/IBAGWAGA OKPALIGBO",
+        "parent_id": "541"
+    },
+    {
+        "id": "3133",
+        "name": "IBEKU",
+        "parent_id": "541"
+    },
+    {
+        "id": "3396",
+        "name": "IHE",
+        "parent_id": "541"
+    },
+    {
+        "id": "5494",
+        "name": "MKPUNANO",
+        "parent_id": "541"
+    },
+    {
+        "id": "5819",
+        "name": "NNU",
+        "parent_id": "541"
+    },
+    {
+        "id": "5953",
+        "name": "OBIMO/IKWOKA",
+        "parent_id": "541"
+    },
+    {
+        "id": "6002",
+        "name": "OBUKPA",
+        "parent_id": "541"
+    },
+    {
+        "id": "6186",
+        "name": "OGBOZALLA/IDI",
+        "parent_id": "541"
+    },
+    {
+        "id": "6528",
+        "name": "OKPUJE/OKUTU/ANUKA",
+        "parent_id": "541"
+    },
+    {
+        "id": "6961",
+        "name": "OWERRE/UMUOYO",
+        "parent_id": "541"
+    },
+    {
+        "id": "247",
+        "name": "AGBEMEBE/UMABOR",
+        "parent_id": "579"
+    },
+    {
+        "id": "408",
+        "name": "AKALITE",
+        "parent_id": "579"
+    },
+    {
+        "id": "447",
+        "name": "AKPA/OZZI",
+        "parent_id": "579"
+    },
+    {
+        "id": "574",
+        "name": "ALOR-UNO",
+        "parent_id": "579"
+    },
+    {
+        "id": "2019",
+        "name": "EDEM-ANI",
+        "parent_id": "579"
+    },
+    {
+        "id": "2023",
+        "name": "EDE-NTA",
+        "parent_id": "579"
+    },
+    {
+        "id": "2024",
+        "name": "EDE-UKWU",
+        "parent_id": "579"
+    },
+    {
+        "id": "2111",
+        "name": "EHA-NDIAGU",
+        "parent_id": "579"
+    },
+    {
+        "id": "2113",
+        "name": "EHA-UNO",
+        "parent_id": "579"
+    },
+    {
+        "id": "2135",
+        "name": "EJUONA/UWANI",
+        "parent_id": "579"
+    },
+    {
+        "id": "3121",
+        "name": "IBAGWANI/IBAGWAGA OKPALIGBO",
+        "parent_id": "579"
+    },
+    {
+        "id": "3133",
+        "name": "IBEKU",
+        "parent_id": "579"
+    },
+    {
+        "id": "3396",
+        "name": "IHE",
+        "parent_id": "579"
+    },
+    {
+        "id": "5494",
+        "name": "MKPUNANO",
+        "parent_id": "579"
+    },
+    {
+        "id": "5819",
+        "name": "NNU",
+        "parent_id": "579"
+    },
+    {
+        "id": "5953",
+        "name": "OBIMO/IKWOKA",
+        "parent_id": "579"
+    },
+    {
+        "id": "6002",
+        "name": "OBUKPA",
+        "parent_id": "579"
+    },
+    {
+        "id": "6186",
+        "name": "OGBOZALLA/IDI",
+        "parent_id": "579"
+    },
+    {
+        "id": "6528",
+        "name": "OKPUJE/OKUTU/ANUKA",
+        "parent_id": "579"
+    },
+    {
+        "id": "6961",
+        "name": "OWERRE/UMUOYO",
+        "parent_id": "579"
+    },
+    {
+        "id": "613",
+        "name": "AMALA",
+        "parent_id": "716"
+    },
+    {
+        "id": "2402",
+        "name": "EZIMO",
+        "parent_id": "716"
+    },
+    {
+        "id": "3746",
+        "name": "IMILIKE",
+        "parent_id": "716"
+    },
+    {
+        "id": "5976",
+        "name": "OBOLLO-AFOR",
+        "parent_id": "716"
+    },
+    {
+        "id": "5977",
+        "name": "OBOLLO-EKE",
+        "parent_id": "716"
+    },
+    {
+        "id": "5978",
+        "name": "OBOLLO-ETITI",
+        "parent_id": "716"
+    },
+    {
+        "id": "6164",
+        "name": "OGBODU-ABA",
+        "parent_id": "716"
+    },
+    {
+        "id": "6771",
+        "name": "ORBA I",
+        "parent_id": "716"
+    },
+    {
+        "id": "6772",
+        "name": "ORBA II",
+        "parent_id": "716"
+    },
+    {
+        "id": "7945",
+        "name": "UDUNEDEM",
+        "parent_id": "716"
+    },
+    {
+        "id": "72",
+        "name": "ABIA",
+        "parent_id": "717"
+    },
+    {
+        "id": "88",
+        "name": "ABOR",
+        "parent_id": "717"
+    },
+    {
+        "id": "197",
+        "name": "AFFA/OGHU/IKONO",
+        "parent_id": "717"
+    },
+    {
+        "id": "446",
+        "name": "AKPA KWUME/NZE",
+        "parent_id": "717"
+    },
+    {
+        "id": "675",
+        "name": "AMOKWE",
+        "parent_id": "717"
+    },
+    {
+        "id": "948",
+        "name": "AWHUM/UKANA",
+        "parent_id": "717"
+    },
+    {
+        "id": "1986",
+        "name": "EBE",
+        "parent_id": "717"
+    },
+    {
+        "id": "2092",
+        "name": "EGEDE/UMUOKA",
+        "parent_id": "717"
+    },
+    {
+        "id": "2145",
+        "name": "EKE",
+        "parent_id": "717"
+    },
+    {
+        "id": "5575",
+        "name": "NACHI",
+        "parent_id": "717"
+    },
+    {
+        "id": "5747",
+        "name": "NGWO ASA",
+        "parent_id": "717"
+    },
+    {
+        "id": "5748",
+        "name": "NGWO UNO",
+        "parent_id": "717"
+    },
+    {
+        "id": "5843",
+        "name": "NSUDE",
+        "parent_id": "717"
+    },
+    {
+        "id": "5954",
+        "name": "OBINAGU",
+        "parent_id": "717"
+    },
+    {
+        "id": "5963",
+        "name": "OBIOMA",
+        "parent_id": "717"
+    },
+    {
+        "id": "6493",
+        "name": "OKPATU",
+        "parent_id": "717"
+    },
+    {
+        "id": "7936",
+        "name": "UDI/AGBUDU",
+        "parent_id": "717"
+    },
+    {
+        "id": "8100",
+        "name": "UMUABI",
+        "parent_id": "717"
+    },
+    {
+        "id": "8101",
+        "name": "UMUAGA",
+        "parent_id": "717"
+    },
+    {
+        "id": "8173",
+        "name": "UMULUMGBE",
+        "parent_id": "717"
+    },
+    {
+        "id": "64",
+        "name": "ABBI",
+        "parent_id": "739"
+    },
+    {
+        "id": "130",
+        "name": "ADABA-NKUME",
+        "parent_id": "739"
+    },
+    {
+        "id": "136",
+        "name": "ADANI",
+        "parent_id": "739"
+    },
+    {
+        "id": "464",
+        "name": "AKPOGU",
+        "parent_id": "739"
+    },
+    {
+        "id": "3373",
+        "name": "IGGA/ASABA",
+        "parent_id": "739"
+    },
+    {
+        "id": "5756",
+        "name": "NIMBO I",
+        "parent_id": "739"
+    },
+    {
+        "id": "5757",
+        "name": "NIMBO II",
+        "parent_id": "739"
+    },
+    {
+        "id": "5789",
+        "name": "NKPOLOGU",
+        "parent_id": "739"
+    },
+    {
+        "id": "5838",
+        "name": "NROBO",
+        "parent_id": "739"
+    },
+    {
+        "id": "6253",
+        "name": "OGURUGU",
+        "parent_id": "739"
+    },
+    {
+        "id": "6306",
+        "name": "OJO",
+        "parent_id": "739"
+    },
+    {
+        "id": "7972",
+        "name": "UGBENE I",
+        "parent_id": "739"
+    },
+    {
+        "id": "7973",
+        "name": "UGBENE II",
+        "parent_id": "739"
+    },
+    {
+        "id": "8051",
+        "name": "UKPATA",
+        "parent_id": "739"
+    },
+    {
+        "id": "8171",
+        "name": "UMULOKPA",
+        "parent_id": "739"
+    },
+    {
+        "id": "8347",
+        "name": "UVURU",
+        "parent_id": "739"
+    },
+    {
+        "id": "49891",
+        "name": "COMM. PRI. SCHOOL MPU I",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49892",
+        "name": "COMM. SEC. SCHOOL MPU I",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49893",
+        "name": "AMACHALLA PRIMARY SCHOOL",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49894",
+        "name": "AGUENYI CENTRAL SCHOOL",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49895",
+        "name": "U.P.E. SCHOOL EZZA MPU",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49896",
+        "name": "AGUNGWU PRIMARY SCHOOL",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49897",
+        "name": "UKEY/UBEAGU PRIMARY SCHOOL",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49898",
+        "name": "AGUGWU AMAGU",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49899",
+        "name": "IMUNO VILLAGE SQUARE",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49900",
+        "name": "CENTRAL SCHL. MPU",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49901",
+        "name": "UBEAGU VILLAGE SQUARE",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49902",
+        "name": "EZZA MPU VILLAGE SQUARE",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49903",
+        "name": "COMM. PRI. SCHOOL MPU II",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49904",
+        "name": "TOWN SCH. NZEIEM AMACHALA",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49905",
+        "name": "COMM. SEC. SCHOOL MPU II",
+        "parent_id": "5535"
+    },
+    {
+        "id": "49865",
+        "name": "OBODO UMUOMA VILLAGE SQUARE I",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49866",
+        "name": "COMM. SCHOOL UHUOGIRI I",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49867",
+        "name": "COMM. SCHOOL UMURAH I",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49868",
+        "name": "CENTRAL SCH. NDEABOH",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49869",
+        "name": "UHUGO VILLAGE SQUARE",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49870",
+        "name": "COMM. SCHOOL AZUNKWO",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49871",
+        "name": "COMM. SCHOOL EZZA UMUOMA I",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49872",
+        "name": "COMM. SCHOOL NOCHELE",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49873",
+        "name": "COMM. SCHOOL ABACHEKU",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49874",
+        "name": "OBODO UMUOMA VILLAGE SQUARE II",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49875",
+        "name": "CENTRAL SCHL. NDEABOH II",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49876",
+        "name": "COMM. SCHL. UMURAH II",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49877",
+        "name": "COMM. SCHL.UHUOGIRI II",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49878",
+        "name": "COMM. SCHL. EZZA UMUOMA II",
+        "parent_id": "5645"
+    },
+    {
+        "id": "49830",
+        "name": "UMULAGU COMM. SCHOOL I",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49831",
+        "name": "UMUDIBO COMM. SCHOOL I",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49832",
+        "name": "AMABO COMM. SCHOOL",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49833",
+        "name": "OBULORUM PRIMARY SCHOOL",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49834",
+        "name": "OBIOFU COMM. SCHOOL",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49835",
+        "name": "OKPULO VILLAGE SQUARE",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49836",
+        "name": "UMULAGU COMM. SCH. II",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49837",
+        "name": "UMUDIBO COMM. SCHOOL II",
+        "parent_id": "5810"
+    },
+    {
+        "id": "49838",
+        "name": "EMULEMOKE COMM. SCHOOL I",
+        "parent_id": "5811"
+    },
+    {
+        "id": "49839",
+        "name": "OKPOME COMM. SCHOOL I",
+        "parent_id": "5811"
+    },
+    {
+        "id": "49840",
+        "name": "AMAGU PRIMARY SCHOOL I",
+        "parent_id": "5811"
+    },
+    {
+        "id": "49841",
+        "name": "AMAGU PRIMARY SCHOOL II",
+        "parent_id": "5811"
+    },
+    {
+        "id": "49842",
+        "name": "EMULEMOKE COMM. SCHOOL II",
+        "parent_id": "5811"
+    },
+    {
+        "id": "49843",
+        "name": "OKPOME COMM. SCHOOL II",
+        "parent_id": "5811"
+    },
+    {
+        "id": "49844",
+        "name": "EZIECHO COMM. SCHOOL ",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49845",
+        "name": "ENUGUNATO PRIMARY SCHOOL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49846",
+        "name": "ENUGUNATO VILLAGE HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49847",
+        "name": "OBEAGU PRIMARY SCHOOL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49848",
+        "name": "OBEAGU TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49849",
+        "name": "UMULUGWAYI PRIMARY SCHOOL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49850",
+        "name": "CENTRAL SCHOOL UHUEZE I",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49851",
+        "name": "CENTRAL SCHOOL UHUEZE II",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49852",
+        "name": "UMUEZE TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49853",
+        "name": "UMULEVO TOWN HALL I",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49854",
+        "name": "UMULEVO TOWN HALL II",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49855",
+        "name": "AMAGU/UMULEVO TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49856",
+        "name": "UMUAGAM VILLAGE HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49857",
+        "name": "CENTRAL SCHOOL EMUDO NENWE",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49858",
+        "name": "COMM. SCHOOL EMUDO NENWE",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49859",
+        "name": "UMUAKUM/UMUOVUTU TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49860",
+        "name": "UMUEKUMA TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49861",
+        "name": "EKPULATO TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49862",
+        "name": "UGWUOGIDI TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49863",
+        "name": "UMUOSI COMM. SCHL.",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49864",
+        "name": "IZIZIKE TOWN HALL",
+        "parent_id": "5812"
+    },
+    {
+        "id": "49789",
+        "name": "COMM. SCH. ODUMA ACHARA",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49790",
+        "name": "AMAEZE ENUGU AGU VILLAGE SQUARE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49791",
+        "name": "OLOVOLO VILLAGE SQUARE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49792",
+        "name": "MMAFU COMM. SCHOOL",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49793",
+        "name": "OBODO UKWU VILLAGE SQUARE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49794",
+        "name": "COMMUNITY SCHOOL UKETE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49795",
+        "name": "AMANKANU VILLAGE SQUARE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49796",
+        "name": "COMM. PRIMARY SCHOOL AMORJI ANI",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49797",
+        "name": "AMORJI ENU VILLAGE SQUARE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49798",
+        "name": "COMM. SCH. ODUMA ACHALA",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49799",
+        "name": "OLOVOLO VILLAGE SQUARE",
+        "parent_id": "6100"
+    },
+    {
+        "id": "49800",
+        "name": "COMM. SCHOOL OBEAGU ODUMA",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49801",
+        "name": "LIBERTY SCHOOL, OBEAGU ODUMA",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49802",
+        "name": "UHUANWUNTA VILLAGE SQUARE",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49803",
+        "name": "OBODO OKPOKO VILLAGE SQUARE",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49804",
+        "name": "OBODO OGBUNTA VILLAGE SQUARE,",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49805",
+        "name": "OBODO AKPAM SQUARE, UHUAGU",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49806",
+        "name": "AMOKWE COMM. SCHO. UHUEGBOKE",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49807",
+        "name": "COMM. SCHOOL UHUAGU AMOKWE",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49808",
+        "name": "COMM. SCH. UHUAGU",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49809",
+        "name": "EKE AMEKE SQUARE",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49810",
+        "name": "CENTRAL SCHOOL ODUMA I",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49811",
+        "name": "NWAFOR UDENE VILL. SQR",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49812",
+        "name": "CENTRAL SCH. ODUMA II",
+        "parent_id": "6101"
+    },
+    {
+        "id": "49813",
+        "name": "AMACHARAUKA VILLAGE SQUARE",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49814",
+        "name": "AMOHITE VILLAGE SQUARE",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49815",
+        "name": "NANWU VILLAGE SQUARE",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49816",
+        "name": "COMM. SCHOOL EZINESI ODUMA I",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49817",
+        "name": "COMM. SCHOOL EZINESI ODUMA II",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49818",
+        "name": "OBODO IMANGENE ANWUNTA VILLAGE SQUARE",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49819",
+        "name": "COMM. SCH. EZINESI ODUMA III",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49820",
+        "name": "OBODO IMANGENE ANWUNTA VILL. SQUARE",
+        "parent_id": "6102"
+    },
+    {
+        "id": "49821",
+        "name": "COMMUNITY SCHOOL ODUMA I",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49822",
+        "name": "AFOR MARKET SQUARE I",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49823",
+        "name": "COMM. SCHOOL EZINATO",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49824",
+        "name": "NKWO MKT. SQUARE",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49825",
+        "name": "OBUAGU VILLAGE SQUARE EZINATO I",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49826",
+        "name": "OBUAGU VILLAGE SQUARE EZINATO II",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49827",
+        "name": "U.P.E. SCHOOL OHOFIA",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49828",
+        "name": "COMM. SCH. ODUMA II",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49829",
+        "name": "AFOR MARKET SQUARE II",
+        "parent_id": "6103"
+    },
+    {
+        "id": "49879",
+        "name": "IHUIBE PRIMARY SCHOOL OKPANKU I",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49880",
+        "name": "IHUIBE PRIMARY SCHOOL OKPANKU II",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49881",
+        "name": "CENTRAL SCHOOL AMABIRIBA",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49882",
+        "name": "AMAEZE PRIMARY SCHOOL I",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49883",
+        "name": "AMOGUDU PRIMARY SCHOOL I",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49884",
+        "name": "OKPU PRIMARY SCHOOL I",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49885",
+        "name": "UHUEZEOKE COMM. PRI. SCH",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49886",
+        "name": "AMAEZE PRI. SCHL. II",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49887",
+        "name": "CENTRAL SCHL. AMABIRIBA II",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49888",
+        "name": "AMOGUDU PRIMARY SCHOOL II",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49889",
+        "name": "OKPU PRIMARY SCHOOL II",
+        "parent_id": "6491"
+    },
+    {
+        "id": "49890",
+        "name": "AGBADA UHUEZEOKE",
+        "parent_id": "6491"
+    },
+    {
+        "id": "50028",
+        "name": "HEALTH CENTRE EZERE I",
+        "parent_id": "251"
+    },
+    {
+        "id": "50029",
+        "name": "HEALTH CENTRE EZERE II",
+        "parent_id": "251"
+    },
+    {
+        "id": "50030",
+        "name": "COMM. SCHOOL EZERE",
+        "parent_id": "251"
+    },
+    {
+        "id": "50031",
+        "name": "CENTRAL. SCHOOL NKWE I",
+        "parent_id": "251"
+    },
+    {
+        "id": "50032",
+        "name": "NKWE SQUARE",
+        "parent_id": "251"
+    },
+    {
+        "id": "50033",
+        "name": "NKWE TOWN HALL",
+        "parent_id": "251"
+    },
+    {
+        "id": "50034",
+        "name": "CENTRAL SCHOOL AWGUNTA",
+        "parent_id": "251"
+    },
+    {
+        "id": "50035",
+        "name": "NKWO OBODO AWGUNTA",
+        "parent_id": "251"
+    },
+    {
+        "id": "50036",
+        "name": "CENTRAL SCHOOL NENWENTA",
+        "parent_id": "251"
+    },
+    {
+        "id": "50037",
+        "name": "NENWENTA TOWN HALL",
+        "parent_id": "251"
+    },
+    {
+        "id": "50038",
+        "name": "COMM. SCHOOL UGWUEME I",
+        "parent_id": "251"
+    },
+    {
+        "id": "50039",
+        "name": "CENTRAL SCHOOL UGWUEME I",
+        "parent_id": "251"
+    },
+    {
+        "id": "50040",
+        "name": "CENTRAL SCHOOL UGWUEME II",
+        "parent_id": "251"
+    },
+    {
+        "id": "50041",
+        "name": "HEALTH POST UGWUEME",
+        "parent_id": "251"
+    },
+    {
+        "id": "50042",
+        "name": "IHITE VILLAGE SQUARE",
+        "parent_id": "251"
+    },
+    {
+        "id": "50043",
+        "name": "POSTAL AGENCY UGWUEME",
+        "parent_id": "251"
+    },
+    {
+        "id": "50044",
+        "name": "CENT. SCH. NKWE II",
+        "parent_id": "251"
+    },
+    {
+        "id": "50045",
+        "name": "COMM. SCH. UGWUEME II",
+        "parent_id": "251"
+    },
+    {
+        "id": "50028",
+        "name": "HEALTH CENTRE EZERE I",
+        "parent_id": "726"
+    },
+    {
+        "id": "50029",
+        "name": "HEALTH CENTRE EZERE II",
+        "parent_id": "726"
+    },
+    {
+        "id": "50030",
+        "name": "COMM. SCHOOL EZERE",
+        "parent_id": "726"
+    },
+    {
+        "id": "50031",
+        "name": "CENTRAL. SCHOOL NKWE I",
+        "parent_id": "726"
+    },
+    {
+        "id": "50032",
+        "name": "NKWE SQUARE",
+        "parent_id": "726"
+    },
+    {
+        "id": "50033",
+        "name": "NKWE TOWN HALL",
+        "parent_id": "726"
+    },
+    {
+        "id": "50034",
+        "name": "CENTRAL SCHOOL AWGUNTA",
+        "parent_id": "726"
+    },
+    {
+        "id": "50035",
+        "name": "NKWO OBODO AWGUNTA",
+        "parent_id": "726"
+    },
+    {
+        "id": "50036",
+        "name": "CENTRAL SCHOOL NENWENTA",
+        "parent_id": "726"
+    },
+    {
+        "id": "50037",
+        "name": "NENWENTA TOWN HALL",
+        "parent_id": "726"
+    },
+    {
+        "id": "50038",
+        "name": "COMM. SCHOOL UGWUEME I",
+        "parent_id": "726"
+    },
+    {
+        "id": "50039",
+        "name": "CENTRAL SCHOOL UGWUEME I",
+        "parent_id": "726"
+    },
+    {
+        "id": "50040",
+        "name": "CENTRAL SCHOOL UGWUEME II",
+        "parent_id": "726"
+    },
+    {
+        "id": "50041",
+        "name": "HEALTH POST UGWUEME",
+        "parent_id": "726"
+    },
+    {
+        "id": "50042",
+        "name": "IHITE VILLAGE SQUARE",
+        "parent_id": "726"
+    },
+    {
+        "id": "50043",
+        "name": "POSTAL AGENCY UGWUEME",
+        "parent_id": "726"
+    },
+    {
+        "id": "50044",
+        "name": "CENT. SCH. NKWE II",
+        "parent_id": "726"
+    },
+    {
+        "id": "50045",
+        "name": "COMM. SCH. UGWUEME II",
+        "parent_id": "726"
+    },
+    {
+        "id": "49906",
+        "name": "TOWN SCHOOL AWGU I",
+        "parent_id": "944"
+    },
+    {
+        "id": "49907",
+        "name": "TOWN SCHOOL AWGU II",
+        "parent_id": "944"
+    },
+    {
+        "id": "49908",
+        "name": "CENTRAL SCHOOL AWGU I",
+        "parent_id": "944"
+    },
+    {
+        "id": "49909",
+        "name": "CENTRAL SCHOOL AWGU II",
+        "parent_id": "944"
+    },
+    {
+        "id": "49910",
+        "name": "COMM. SCHOOL ADOGBA",
+        "parent_id": "944"
+    },
+    {
+        "id": "49911",
+        "name": "COMM. SCHOOL ULULOR OHAJA",
+        "parent_id": "944"
+    },
+    {
+        "id": "49912",
+        "name": "UNION PRIMARY SCHOOL OHAJA",
+        "parent_id": "944"
+    },
+    {
+        "id": "49913",
+        "name": "ENUGU ROAD PRIMARY SCHOOL",
+        "parent_id": "944"
+    },
+    {
+        "id": "49914",
+        "name": "OBODO IBITE SQUARE",
+        "parent_id": "944"
+    },
+    {
+        "id": "49915",
+        "name": "COMM. SCHOOL OGBOLI NDIUNO",
+        "parent_id": "944"
+    },
+    {
+        "id": "49916",
+        "name": "OGBOLI NDIAGU PRIMARY SCHOOL",
+        "parent_id": "944"
+    },
+    {
+        "id": "49917",
+        "name": "OBODO AMATA AMOKWE SQUARE",
+        "parent_id": "944"
+    },
+    {
+        "id": "49918",
+        "name": "OBODO UKWU EVAM VILLAGE SQUARE",
+        "parent_id": "944"
+    },
+    {
+        "id": "49919",
+        "name": "OBUGO VILLAGE SQUARE",
+        "parent_id": "944"
+    },
+    {
+        "id": "49920",
+        "name": "COOPERATIVE COMPLEX AWGU",
+        "parent_id": "944"
+    },
+    {
+        "id": "49921",
+        "name": "NDIAGU OLUAVO VILLAGE SQUARE",
+        "parent_id": "944"
+    },
+    {
+        "id": "49922",
+        "name": "JOINT OSCHOOL AMOFIA",
+        "parent_id": "945"
+    },
+    {
+        "id": "49923",
+        "name": "COMM. SCHOOL ONOLI I",
+        "parent_id": "945"
+    },
+    {
+        "id": "49924",
+        "name": "COMM. SCHOOL ONOLI II",
+        "parent_id": "945"
+    },
+    {
+        "id": "49925",
+        "name": "COMM. SCHOOL AWGU",
+        "parent_id": "945"
+    },
+    {
+        "id": "49926",
+        "name": "OBODO AMETA OBUOFFIA SQUARE",
+        "parent_id": "945"
+    },
+    {
+        "id": "49927",
+        "name": "OGWUMABIRI SQUARE AWGU I",
+        "parent_id": "945"
+    },
+    {
+        "id": "49928",
+        "name": "OYE UMUHU MARKET SQUARE I",
+        "parent_id": "945"
+    },
+    {
+        "id": "49929",
+        "name": "OYE UMUHU MARKET SQUARE II",
+        "parent_id": "945"
+    },
+    {
+        "id": "49930",
+        "name": "JOINT SCHOOL AWGU",
+        "parent_id": "945"
+    },
+    {
+        "id": "49931",
+        "name": "AMAJIRIJI VILLAGE SQUARE",
+        "parent_id": "945"
+    },
+    {
+        "id": "49932",
+        "name": "UHUANYA PUBLIC SQUARE",
+        "parent_id": "945"
+    },
+    {
+        "id": "49933",
+        "name": "OGWUMABIRI SQUARE AWGU II",
+        "parent_id": "945"
+    },
+    {
+        "id": "49934",
+        "name": "EZIUMUHU PUBLIC SQUARE",
+        "parent_id": "945"
+    },
+    {
+        "id": "49974",
+        "name": "COMM. SCHOOL IHE I",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49975",
+        "name": "COMM. SCHOOL IHE II",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49976",
+        "name": "UMUONWO/UMUONYIA HALL I",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49977",
+        "name": "UMUONWO/UMUONYIA HALL II",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49978",
+        "name": "CENTRAL SCHOOL IHE I",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49979",
+        "name": "CENTRAL SCHOOL IHE II",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49980",
+        "name": "PRIMARY SCHOOL IHE I",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49981",
+        "name": "PRIMARY SCHOOL IHE II",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49982",
+        "name": "COMM. SCHOOL UMUOGBA",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49983",
+        "name": "IHUEZE HALL",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49984",
+        "name": "UMUSIBE HALL I",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49985",
+        "name": "UMUSIBE HALL II",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49986",
+        "name": "UMUANIEBE VILLAGE HALL",
+        "parent_id": "3395"
+    },
+    {
+        "id": "49987",
+        "name": "AWKUNANAW VILLAGE HALL",
+        "parent_id": "3395"
+    },
+    {
+        "id": "50080",
+        "name": "ENUGU ISU VILLAGE SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50081",
+        "name": "OBODO ENUGU ISU VILLAGE SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50082",
+        "name": "UMUAMANU VILLAGE SQUARE I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50083",
+        "name": "UMUAMANU VILLAGE SQUARE II",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50084",
+        "name": "CENTRAL SCHOOL HALL ISU",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50085",
+        "name": "EGEDU VILLAGE HALL",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50086",
+        "name": "UGWUNATOR VILLAGE SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50087",
+        "name": "CENTRAL SCHOOL AGBUDU I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50088",
+        "name": "CENTRAL SCHOOL AGBUDU II",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50089",
+        "name": "AFOR MARKET SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50090",
+        "name": "ST. LUKE'S SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50091",
+        "name": "ENUGU AGBUDU MARKET SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50092",
+        "name": "OBODO UMUONYE AGBUDU I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50093",
+        "name": "CENTRAL SCHOOL ITUKU",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50094",
+        "name": "UMUONWO SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50095",
+        "name": "COMM. SEC. SCHOOL ITUKU",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50096",
+        "name": "OFEIYI SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50097",
+        "name": "AFOIKE UMUONYIBA",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50098",
+        "name": "OKWENACHALA VILLAGE SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50099",
+        "name": "UGBO ASHA VILLAGE SQUARE I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50100",
+        "name": "UMUAMANU VILLAGE SQUARE III",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50101",
+        "name": "OBODO UMUONYE AGBUDU II",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50102",
+        "name": "UGBO ASHA VILLAGE SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50103",
+        "name": "ONUEZI VILLAGE SQUARE UGWUAGBO ITUKU",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50104",
+        "name": "OBODO AKPAKA VILLAGE SQUARE",
+        "parent_id": "3958"
+    },
+    {
+        "id": "50000",
+        "name": "COMM. DEVELOPMENT TRAINING CENTRE (CDTC)",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50001",
+        "name": "IFITE TOWN HALL I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50002",
+        "name": "IFITE TOWN HALL II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50003",
+        "name": "IFITE TOWN HALL III",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50004",
+        "name": "COMM. PRIMARY SCHOOL MGBIDI I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50005",
+        "name": "COMM. PRIMARY SCHOOL MGBIDI II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50006",
+        "name": "CENTRAL SCHOOL MGBIDI I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50007",
+        "name": "CENTRAL SCHOOL MGBIDI II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50008",
+        "name": "COMM. SEC. SCHOOL MGBIDI I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50009",
+        "name": "ENUGU AFFAM HALL",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50010",
+        "name": "WISDOM COMM. INST. MMAKU I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50011",
+        "name": "WISDOM COMM. INST. MMAKU II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50012",
+        "name": "VILLAGE SQUARE EBA IBITE",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50013",
+        "name": "CENTRAL SQUARE EZIOHA",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50014",
+        "name": "ORJI OBODO SQUARE I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50015",
+        "name": "OPPOSHI MARKET SQUARE I",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50016",
+        "name": "OPPOSHI MARKET SQUARE II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50017",
+        "name": "PRIMARY SCHOOL AMA-UDALA",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50018",
+        "name": "COMM. SCHOOL ENUGU MMAKU",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50019",
+        "name": "OBODO ORJI SQUARE IBITE II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50020",
+        "name": "OKWULOHIA VILLAGE SQUARE IFITE",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50021",
+        "name": "AKPUOBIA VILLAGE SQUARE",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50022",
+        "name": "NVUJA VILLAGE SQUARE",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50023",
+        "name": "COMM. SEC. SCH. MGBIDI II",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50024",
+        "name": "AGBONELI VILLAGE SQUARE MMAKU",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50025",
+        "name": "OBODOUBE VILLAGE SQUARE MMAKU",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50026",
+        "name": "UHUOGBEUGWU VILLAGE SQUARE MMAKU",
+        "parent_id": "5466"
+    },
+    {
+        "id": "50027",
+        "name": "UHUOYEAGBO VILLAGE SQUARE MMAKU",
+        "parent_id": "5466"
+    },
+    {
+        "id": "49935",
+        "name": "OBODO IKORO SQUARE",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49936",
+        "name": "COMM. SCHOOL EZIOHA I",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49937",
+        "name": "COMM. SCHOOL EZIOHA II",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49938",
+        "name": "CENTRAL. SCHOOL IMAMA I",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49939",
+        "name": "CENTRAL. SCHOOL EXTENSION",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49940",
+        "name": "COMM. SCHOOL AMATA I",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49941",
+        "name": "COMM. SCHOOL AMATA II",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49942",
+        "name": "TOWN. SCHOOL AMATA I",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49943",
+        "name": "TOWN. SCHOOL AMATA II",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49944",
+        "name": "COMM. SCHOOL EZIOBODO I",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49945",
+        "name": "COMM. SCHOOL EZIOBODO II",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49946",
+        "name": "NGELEATOR PRIMARY SCHOOL",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49947",
+        "name": "COMM. PRIMARY SCHOOL, INYI",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49948",
+        "name": "OBUSHI INYI TOWN HALL",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49949",
+        "name": "COOPERATIVE HALL OGBETA",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49950",
+        "name": "BOYS' SECONDARY SCHOOL MGBOWO",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49951",
+        "name": "CENT. SCH. IMAMA II",
+        "parent_id": "5470"
+    },
+    {
+        "id": "49952",
+        "name": "COOPERATIVE HALL OGBETA II",
+        "parent_id": "5470"
+    },
+    {
+        "id": "6491",
+        "name": "ANINRI",
+        "parent_id": "3958"
+    },
+    {
+        "id": "49988",
+        "name": "OBEAGU ROAD JUNCTION I",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49989",
+        "name": "OBEAGU ROAD JUNCTION II",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49990",
+        "name": "OPIGWE SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49991",
+        "name": "EBEOKPU SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49992",
+        "name": "UGWUEFI SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49993",
+        "name": "BINI HOUSE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49994",
+        "name": "OBODO AGWU",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49995",
+        "name": "UHUEZE SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49996",
+        "name": "AFOR MARKET SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49997",
+        "name": "OBODO ANIUNO SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49998",
+        "name": "ODUDO AMOJI SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "49999",
+        "name": "OBODO AKPAKA EBENEBE SQUARE",
+        "parent_id": "5926"
+    },
+    {
+        "id": "50105",
+        "name": "UMUATUBO VILLAGE HALL",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50106",
+        "name": "OBODO AJANI (ENUGU MBIO)",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50107",
+        "name": "UHUAGBOM VILLAGE HALL",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50108",
+        "name": "MBIO PRIMARY SCHOOL I",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50109",
+        "name": "OBODO IHIANI",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50110",
+        "name": "COMM. SCHOOL EZIAMA",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50111",
+        "name": "EKE MARKET SQUARE",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50112",
+        "name": "OBODO NGENE UKWU (AWTOR)",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50113",
+        "name": "CENTRAL SCHOOL OGBAKU I",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50114",
+        "name": "CENTRAL SCHOOL OGBAKU II",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50115",
+        "name": "NWAUGBA (UNAPPROVED SEC. SHOOL)",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50116",
+        "name": "MBIO PRIMARY SCHOOL II",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50117",
+        "name": "CENT. SCH. OGBAKU III",
+        "parent_id": "6143"
+    },
+    {
+        "id": "50046",
+        "name": "CENTRAL SCHOOL OGUGU",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50047",
+        "name": "OBODO AMANABO",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50048",
+        "name": "IBITE PRIMARY SCHOOL",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50049",
+        "name": "OBODO VILLAGE SQUARE",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50050",
+        "name": "UGWU AMAGBE",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50051",
+        "name": "ENUGU OWELLI COMM. SCHOOL",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50052",
+        "name": "UPE SCHOOL I",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50053",
+        "name": "UPE SCHOOL II",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50054",
+        "name": "UZAM SQUARE I",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50055",
+        "name": "OWELLI COURT I",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50056",
+        "name": "NKWO OGUGU",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50057",
+        "name": "OBODO UMUNNA",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50058",
+        "name": "PRIMARY SCHOOL ANONO OWELLI",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50059",
+        "name": "OBODO UHUOKPALA",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50060",
+        "name": "CENTRAL SCHOOL AMOLI",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50061",
+        "name": "OHUMAGU VILLAGE SQUARE",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50062",
+        "name": "HEALTH CENTRE AMOLI",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50063",
+        "name": "OBODO AKPU-OKA",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50064",
+        "name": "OTUNKU C.P.S",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50065",
+        "name": "JOINT SCHOOL OHUMAGU",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50066",
+        "name": "TECHNICAL SCHOOL AMOLI",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50067",
+        "name": "OBODO UMUAGWU AMOLI",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50068",
+        "name": "C.P.S. UGBOKPALA I",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50069",
+        "name": "C.P.S. UGBOKPALA II",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50070",
+        "name": "UZAM SQUARE II",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50071",
+        "name": "OWELLI COURT II",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50072",
+        "name": "TECH. SCH. AMOLI",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50073",
+        "name": "INOMALIA VILLAGE SQUARE",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50074",
+        "name": "C.P.S. UGBONABOR I",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50075",
+        "name": "C.P.S. UGBONABOR II",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50076",
+        "name": "OBODO OHU VILLAGE SQUARE",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50077",
+        "name": "C.P.S. NGENE UGBO",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50078",
+        "name": "OBODO UKPAMANU",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50079",
+        "name": "EKE-OGA VILLAGE SQUARE NGENEUGBO",
+        "parent_id": "6956"
+    },
+    {
+        "id": "50118",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50119",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50120",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50121",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50122",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50123",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50124",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50125",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VIII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50126",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL IX",
+        "parent_id": "36"
+    },
+    {
+        "id": "50127",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL X",
+        "parent_id": "36"
+    },
+    {
+        "id": "50128",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL XI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50129",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50130",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50131",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50132",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50133",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50134",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50135",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50136",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VIII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50137",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL IX",
+        "parent_id": "36"
+    },
+    {
+        "id": "50138",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL X",
+        "parent_id": "36"
+    },
+    {
+        "id": "50139",
+        "name": "NATIONAL GRAMMAR SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50140",
+        "name": "NATIONAL GRAMMAR SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50141",
+        "name": "NATIONAL GRAMMAR SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50142",
+        "name": "NATIONAL GRAMMAR SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50143",
+        "name": "NATIONAL GRAMMAR SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50144",
+        "name": "NATIONAL GRAMMAR SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50145",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50146",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50147",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50148",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50149",
+        "name": "ABAKPA GIRLS SEC. SCH. I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50150",
+        "name": "ABAKPA GIRLS SEC. SCH. II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50118",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50119",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50120",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50121",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50122",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50123",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50124",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50125",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VIII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50126",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL IX",
+        "parent_id": "36"
+    },
+    {
+        "id": "50127",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL X",
+        "parent_id": "36"
+    },
+    {
+        "id": "50128",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL XI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50129",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50130",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50131",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50132",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50133",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50134",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50135",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50136",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VIII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50137",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL IX",
+        "parent_id": "36"
+    },
+    {
+        "id": "50138",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL X",
+        "parent_id": "36"
+    },
+    {
+        "id": "50139",
+        "name": "NATIONAL GRAMMAR SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50140",
+        "name": "NATIONAL GRAMMAR SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50141",
+        "name": "NATIONAL GRAMMAR SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50142",
+        "name": "NATIONAL GRAMMAR SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50143",
+        "name": "NATIONAL GRAMMAR SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50144",
+        "name": "NATIONAL GRAMMAR SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50145",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50146",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50147",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50148",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50149",
+        "name": "ABAKPA GIRLS SEC. SCH. I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50150",
+        "name": "ABAKPA GIRLS SEC. SCH. II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50118",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50119",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50120",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50121",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50122",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50123",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50124",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50125",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL VIII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50126",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL IX",
+        "parent_id": "36"
+    },
+    {
+        "id": "50127",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL X",
+        "parent_id": "36"
+    },
+    {
+        "id": "50128",
+        "name": "ABAKPA VILLAGE PRIMARY SCHOOL XI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50129",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50130",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50131",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50132",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50133",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50134",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50135",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50136",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL VIII",
+        "parent_id": "36"
+    },
+    {
+        "id": "50137",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL IX",
+        "parent_id": "36"
+    },
+    {
+        "id": "50138",
+        "name": "HOUSING ESTATE PRIMARY SCHOOL X",
+        "parent_id": "36"
+    },
+    {
+        "id": "50139",
+        "name": "NATIONAL GRAMMAR SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50140",
+        "name": "NATIONAL GRAMMAR SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50141",
+        "name": "NATIONAL GRAMMAR SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50142",
+        "name": "NATIONAL GRAMMAR SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50143",
+        "name": "NATIONAL GRAMMAR SCHOOL V",
+        "parent_id": "36"
+    },
+    {
+        "id": "50144",
+        "name": "NATIONAL GRAMMAR SCHOOL VI",
+        "parent_id": "36"
+    },
+    {
+        "id": "50145",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50146",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL II",
+        "parent_id": "36"
+    },
+    {
+        "id": "50147",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL III",
+        "parent_id": "36"
+    },
+    {
+        "id": "50148",
+        "name": "ABAKALIKI ROAD PRIMARY SCHOOL IV",
+        "parent_id": "36"
+    },
+    {
+        "id": "50149",
+        "name": "ABAKPA GIRLS SEC. SCH. I",
+        "parent_id": "36"
+    },
+    {
+        "id": "50150",
+        "name": "ABAKPA GIRLS SEC. SCH. II",
+        "parent_id": "36"
+    },
+    {
+        "id": "45799",
+        "name": "TIPPER PARK VI",
+        "parent_id": "37"
+    },
+    {
+        "id": "45800",
+        "name": "TIPPER PARK VII",
+        "parent_id": "37"
+    },
+    {
+        "id": "45801",
+        "name": "TIPPER PARK VIII",
+        "parent_id": "37"
+    },
+    {
+        "id": "45802",
+        "name": "TIPPER PARK IX",
+        "parent_id": "37"
+    },
+    {
+        "id": "45803",
+        "name": "TIPPER PARK X",
+        "parent_id": "37"
+    },
+    {
+        "id": "45804",
+        "name": "FEDERAL HOUSING PRIMARY SCHOOL I",
+        "parent_id": "37"
+    },
+    {
+        "id": "45805",
+        "name": "FEDERAL HOUSING PRIMARY SCHOOL II",
+        "parent_id": "37"
+    },
+    {
+        "id": "50151",
+        "name": "UGWOGO/NNAJI PARK I",
+        "parent_id": "37"
+    },
+    {
+        "id": "50152",
+        "name": "UGWOGO/NNAJI PARK II",
+        "parent_id": "37"
+    },
+    {
+        "id": "50153",
+        "name": "UGWOGO/NNAJI PARK III",
+        "parent_id": "37"
+    },
+    {
+        "id": "50154",
+        "name": "UGWOGO/NNAJI PARK IV",
+        "parent_id": "37"
+    },
+    {
+        "id": "50155",
+        "name": "UGWOGO/NNAJI PARK V",
+        "parent_id": "37"
+    },
+    {
+        "id": "50156",
+        "name": "UGWOGO/NNAJI PARK VI",
+        "parent_id": "37"
+    },
+    {
+        "id": "50157",
+        "name": "UGWOGO/NNAJI PARK VII",
+        "parent_id": "37"
+    },
+    {
+        "id": "50158",
+        "name": "UGWOGO/NNAJI PARK VIII",
+        "parent_id": "37"
+    },
+    {
+        "id": "50159",
+        "name": "UGWOGO/NNAJI PARK IX",
+        "parent_id": "37"
+    },
+    {
+        "id": "50160",
+        "name": "TIPPER PARK I",
+        "parent_id": "37"
+    },
+    {
+        "id": "50161",
+        "name": "TIPPER PARK II",
+        "parent_id": "37"
+    },
+    {
+        "id": "50162",
+        "name": "TIPPER PARK III",
+        "parent_id": "37"
+    },
+    {
+        "id": "50163",
+        "name": "TIPPER PARK IV",
+        "parent_id": "37"
+    },
+    {
+        "id": "50164",
+        "name": "TIPPER PARK V",
+        "parent_id": "37"
+    },
+    {
+        "id": "45819",
+        "name": "C.P.S. AMORJI I",
+        "parent_id": "678"
+    },
+    {
+        "id": "45820",
+        "name": "C.P.S. AMORJI II",
+        "parent_id": "678"
+    },
+    {
+        "id": "45821",
+        "name": "C.P.S AMORJI III",
+        "parent_id": "678"
+    },
+    {
+        "id": "45822",
+        "name": "C.P.S. AMORJI IV",
+        "parent_id": "678"
+    },
+    {
+        "id": "45823",
+        "name": "CIVIC CENTRE AMORJI III",
+        "parent_id": "678"
+    },
+    {
+        "id": "45824",
+        "name": "CIVIC CENTRE I",
+        "parent_id": "678"
+    },
+    {
+        "id": "45825",
+        "name": "CIVIC CENTRE II",
+        "parent_id": "678"
+    },
+    {
+        "id": "45826",
+        "name": "AKAMA VILLAGE SQUARE",
+        "parent_id": "678"
+    },
+    {
+        "id": "45827",
+        "name": "UGBO AKAMA",
+        "parent_id": "678"
+    },
+    {
+        "id": "45918",
+        "name": "IBAGWA NIKE SQUARE I",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45919",
+        "name": "IBAGWA NIKE SQUARE II",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45920",
+        "name": "EDEM VILLAGE SQUARE I",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45921",
+        "name": "EDEM VILLAGE SQUARE II",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45922",
+        "name": "AMAMKPUMA VILLAGE SQUARE",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45923",
+        "name": "IBAGWA NIKE SQUARE III",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45924",
+        "name": "IBAGWA NIKE SQUARE IV",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45925",
+        "name": "UGBO IYIOKU SQUARE",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45926",
+        "name": "UMUNONU VILLAGE SQUARE",
+        "parent_id": "3122"
+    },
+    {
+        "id": "45828",
+        "name": "C.P.S. AKO NIKE I",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45829",
+        "name": "C.P.S. AKO NIKE II",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45830",
+        "name": "C.P.S. AKO NIKE III",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45831",
+        "name": "C.P.S. AKO NIKE IV",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45832",
+        "name": "C.P.S. AGBOGAZI NIKE I",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45833",
+        "name": "C.P.S. AGBOGAZI NIKE II",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45834",
+        "name": "C.P.S. OGBEKE  NIKE I",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45835",
+        "name": "C.P.S. OGBEKE  NIKE II",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45836",
+        "name": "C.P.S.  NEKE UNO I",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45837",
+        "name": "C.P.S.  NEKE UNO II",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45838",
+        "name": "C.P.S.  NEKE ODENIGBO I",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45839",
+        "name": "C.P.S.  NEKE ODENIGBO II",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45840",
+        "name": "C.P.S. AGBOGAZI NIKE III",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45841",
+        "name": "C.P.S. AGBOGAZI NIKE IV",
+        "parent_id": "5438"
+    },
+    {
+        "id": "45938",
+        "name": "AKPOGA TOWN HALL I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45939",
+        "name": "AKPOGA TOWN HALL II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45940",
+        "name": "AKPOGA TOWN HALL III",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45941",
+        "name": "NKOMORO ONUOGBA NIKE I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45942",
+        "name": "NKOMORO ONUOGBA NIKE II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45943",
+        "name": "C.P.S. AKPOGA I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45944",
+        "name": "C.P.S. AKPOGA II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45945",
+        "name": "C.P.S. AKPOGA III",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45946",
+        "name": "C.P.S. EZZA AKPOGA I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45947",
+        "name": "C.P.S. EZZA AKPOGA II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45948",
+        "name": "C.P.S. EZZA AKPOGA III",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45949",
+        "name": "CPS EZZA NKWUBO I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45950",
+        "name": "CPS EZZA NKWUBO II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45951",
+        "name": "CPS EZZA NKWUBO III",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45952",
+        "name": "NKWUBO TOWN SQUARE I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45953",
+        "name": "NKWUBO TOWN SQUARE II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45954",
+        "name": "UGWUOMU NIKE I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45955",
+        "name": "UGWUOMU NIKE II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45956",
+        "name": "UGWUOMU NIKE III",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45957",
+        "name": "OBINAGU UGWUOMU I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45958",
+        "name": "OBINAGU UGWUOMU II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45959",
+        "name": "ONUOGBA TOWN SQUARE I",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45960",
+        "name": "ONUOGBA TOWN SQUARE II",
+        "parent_id": "5439"
+    },
+    {
+        "id": "45854",
+        "name": "TOWN SCHOOL EMENE I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45855",
+        "name": "TOWN SCHOOL EMENE II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45856",
+        "name": "TOWN SCHOOL EMENE III",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45857",
+        "name": "TOWN SCHOOL EMENE IV",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45858",
+        "name": "CENTRAL SCHOOL EMENE I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45859",
+        "name": "CENTRAL SCHOOL EMENE II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45860",
+        "name": "CENTRAL SCHOOL EMENE III",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45861",
+        "name": "CENTRAL SCHOOL EMENE IV",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45862",
+        "name": "CENTRAL SCHOOL EMENE V",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45863",
+        "name": "CENTRAL SCHOOL EMENE VI",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45864",
+        "name": "PRACTISING SCHOOL EMENE I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45865",
+        "name": "PRACTISING SCHOOL EMENE II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45866",
+        "name": "PRACTISING SCHOOL EMENE III",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45867",
+        "name": "PRACTISING SCHOOL EMENE IV",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45868",
+        "name": "PRACTISING SCHOOL EMENE V",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45869",
+        "name": "OBINAGU TOWN I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45870",
+        "name": "OBINAGU TOWN II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45871",
+        "name": "NCHATANCHA SQUARE I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45872",
+        "name": "NCHATANCHA SQUARE II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45873",
+        "name": "AIRPORT PRIMARY SCHOOL I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45874",
+        "name": "CENTRE FOR DISABLED",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45875",
+        "name": "NKPOLOGWU PRIMARY SCHOOL I",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45876",
+        "name": "NKPOLOGWU PRIMARY SCHOOL II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45877",
+        "name": "NKPOLOGWU PRIMARY SCHOOL III",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45878",
+        "name": "AIRPORT PRIMARY SCHOOL II",
+        "parent_id": "5440"
+    },
+    {
+        "id": "45842",
+        "name": "C.P.S. AMOKPO I",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45843",
+        "name": "C.P.S. AMOKPO II",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45844",
+        "name": "C.P.S. AMOKPO III",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45845",
+        "name": "ALULU VILLAGE SQUARE I",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45846",
+        "name": "ALULU VILLAGE SQUARE II",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45847",
+        "name": "ALULU VILLAGE SQUARE III",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45848",
+        "name": "UGBO NOKPA",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45849",
+        "name": "AGU AMOKPO",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45850",
+        "name": "C.P.S. AMOKPO IV",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45851",
+        "name": "NOKPA VILLAGE SQUARE",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45852",
+        "name": "AMOKPO VILLAGE SQUARE",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45853",
+        "name": "EZEMA VILLAGE SQUARE",
+        "parent_id": "5441"
+    },
+    {
+        "id": "45890",
+        "name": "OPEN SQUARE OPPOSITE ST. PHILIP I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45891",
+        "name": "OPEN SQUARE OPPOSITE ST. PHILIP II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45892",
+        "name": "OPEN SQUARE OPPOSITE ST. PHILIP III",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45893",
+        "name": "OPEN SQUARE OPPOSITE ST. PHILIP IV",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45894",
+        "name": "OPEN SQUARE OPPOSITE ST. PHILIP V",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45895",
+        "name": "OPEN SQUARE ALONG UMUDIOKA I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45896",
+        "name": "OPEN SQUARE ALONG UMUDIOKA II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45897",
+        "name": "OPEN SQUARE ALONG UMUDIOKA III",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45898",
+        "name": "TRANS EKULU PRIMARY SCHOOL I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45899",
+        "name": "TRANS EKULU PRIMARY SCHOOL II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45900",
+        "name": "TRANS EKULU PRIMARY SCHOOL III",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45901",
+        "name": "TRANS EKULU PRIMARY SCHOOL IV",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45902",
+        "name": "TRANS EKULU PRIMARY SCHOOL V",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45903",
+        "name": "UGBO ODOGWU PRIMARY SCHOOL I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45904",
+        "name": "UGBO ODOGWU PRIMARY SCHOOL II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45905",
+        "name": "UGBO ODOGWU PRIMARY SCHOOL III",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45906",
+        "name": "AGU OWA I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45907",
+        "name": "AGU OWA II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45908",
+        "name": "AGU OWA III",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45909",
+        "name": "AGU OWA IV",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45910",
+        "name": "AGU OWA V",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45911",
+        "name": "AGU ABOR HALL I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45912",
+        "name": "AGU ABOR HALL II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45913",
+        "name": "UGBO ODOGWU PRIMARY SCHOOL IV",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45914",
+        "name": "UGBO ODOGWU PRIMARY SCHOOL V",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45915",
+        "name": "SCHOOL OF DENTAL TECH. I",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45916",
+        "name": "SCHOOL OF DENTAL TECH. II",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45917",
+        "name": "TRANS EKULU PRIMARY SCHOOL VI",
+        "parent_id": "7769"
+    },
+    {
+        "id": "45927",
+        "name": "C.P.S. UGWOGO I",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45928",
+        "name": "C.P.S. UGWOGO II",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45929",
+        "name": "C.P.S. UGWOGO III",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45930",
+        "name": "C.P.S. UGWOGO IV",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45931",
+        "name": "C.P.S. UGWOGO V",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45932",
+        "name": "C.P.S. UGWOGO VI",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45933",
+        "name": "C.P.S. UGWOGO VII",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45934",
+        "name": "AMAKPAKA HALL I",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45935",
+        "name": "AMAKPAKA HALL II",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45936",
+        "name": "AMAKPAKA HALL III",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45937",
+        "name": "C.P.S. UGWOGO VIII",
+        "parent_id": "8014"
+    },
+    {
+        "id": "45879",
+        "name": "UMUCHIGBO HALL I",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45880",
+        "name": "UMUCHIGBO HALL II",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45881",
+        "name": "UMUCHIGBO HALL III",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45882",
+        "name": "UMUCHIGBO HALL",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45883",
+        "name": "FORGEROLL JUNCTION/UDOKA LAYOUT AIRPORT VILLAGE",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45884",
+        "name": "UMUCHIGBO HALL",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45885",
+        "name": "UGBO OGBURUGBU I",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45886",
+        "name": "UGBO OGBURUGBU II",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45887",
+        "name": "UMUCHIGBO HALL VI",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45888",
+        "name": "UMUCHIGBO HALL VII",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45889",
+        "name": "UMUCHIGBO HALL VIII",
+        "parent_id": "8129"
+    },
+    {
+        "id": "45806",
+        "name": "NIKE TOWN HALL I",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45807",
+        "name": "NIKE TOWN HALL II",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45808",
+        "name": "NIKE TOWN HALL III",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45809",
+        "name": "NIKE TOWN HALL IV",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45810",
+        "name": "NIKE TOWN HALL",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45811",
+        "name": "OBINAGU VILLA",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45812",
+        "name": "OBINAGU VILLA",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45813",
+        "name": "OBINAGU VILLAGE SQUARE I",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45814",
+        "name": "OBINAGU VILLAGE SQUARE II",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45815",
+        "name": "UGBO EMMA I",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45816",
+        "name": "UGBO EMMA II",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45817",
+        "name": "UGWUEKE VILLAGE SQUARE I",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45818",
+        "name": "UGWUEKE VILLAGE SQUARE II",
+        "parent_id": "8145"
+    },
+    {
+        "id": "45961",
+        "name": "UDI ROAD PRIMARY SCHOOL I",
+        "parent_id": "837"
+    },
+    {
+        "id": "45962",
+        "name": "UDI ROAD PRIMARY SCHOOL II",
+        "parent_id": "837"
+    },
+    {
+        "id": "45963",
+        "name": "UDI ROAD PRIMARY SCHOOL III",
+        "parent_id": "837"
+    },
+    {
+        "id": "45964",
+        "name": "UDI ROAD PRIMARY SCHOOL IV",
+        "parent_id": "837"
+    },
+    {
+        "id": "45965",
+        "name": "UDI ROAD PRIMARY SCHOOL V",
+        "parent_id": "837"
+    },
+    {
+        "id": "45966",
+        "name": "UDI ROAD PRIMARY SCHOOL VI",
+        "parent_id": "837"
+    },
+    {
+        "id": "45967",
+        "name": "UDI ROAD PRIMARY SCHOOL VII",
+        "parent_id": "837"
+    },
+    {
+        "id": "45968",
+        "name": "ASATA PRIMARY SCHOOL V",
+        "parent_id": "837"
+    },
+    {
+        "id": "45969",
+        "name": "O'CONOR PRIMARY SCHOOL I",
+        "parent_id": "837"
+    },
+    {
+        "id": "45970",
+        "name": "O'CONOR PRIMARY SCHOOL II",
+        "parent_id": "837"
+    },
+    {
+        "id": "45971",
+        "name": "O'CONOR PRIMARY SCHOOL III",
+        "parent_id": "837"
+    },
+    {
+        "id": "45972",
+        "name": "O'CONOR PRIMARY SCHOOL IV",
+        "parent_id": "837"
+    },
+    {
+        "id": "45973",
+        "name": "O'CONOR PRIMARY SCHOOL V",
+        "parent_id": "837"
+    },
+    {
+        "id": "45974",
+        "name": "O'CONOR PRIMARY SCHOOL VI",
+        "parent_id": "837"
+    },
+    {
+        "id": "45975",
+        "name": "ASATA PRIMARY SCHOOL I",
+        "parent_id": "837"
+    },
+    {
+        "id": "45976",
+        "name": "ASATA PRIMARY SCHOOL II",
+        "parent_id": "837"
+    },
+    {
+        "id": "45977",
+        "name": "ASATA PRIMARY SCHOOL III",
+        "parent_id": "837"
+    },
+    {
+        "id": "45978",
+        "name": "ASATA PRIMARY SCHOOL IV",
+        "parent_id": "837"
+    },
+    {
+        "id": "45979",
+        "name": "OWERRI ROAD SUYA SPOT",
+        "parent_id": "837"
+    },
+    {
+        "id": "46089",
+        "name": "CONSTRUCTION PRIMARY SCHOOL I",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46090",
+        "name": "CONSTRUCTION PRIMARY SCHOOL II",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46091",
+        "name": "CONSTRUCTION PRIMARY SCHOOL III",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46092",
+        "name": "CONSTRUCTION PRIMARY SCHOOL IV",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46093",
+        "name": "CONSTRUCTION PRIMARY SCHOOL V",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46094",
+        "name": "ARTISAN PRIMARY SCHOOL I",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46095",
+        "name": "ARTISAN PRIMARY SCHOOL II",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46096",
+        "name": "ARTISAN PRIMARY SCHOOL III",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46097",
+        "name": "ARTISAN PRIMARY SCHOOL IV",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46098",
+        "name": "ARTISAN PRIMARY SCHOOL V",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46099",
+        "name": "CHINA TOWN PRIMARY SCHOOL I",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46100",
+        "name": "CHINA TOWN PRIMARY SCHOOL II",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46101",
+        "name": "CHINA TOWN PRIMARY SCHOOL III",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46102",
+        "name": "CHINA TOWN PRIMARY SCHOOL IV",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46103",
+        "name": "CONSTRUCTION PRIMARY SCHOOL VI",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46104",
+        "name": "CHINA TOWN PRIMARY SCHOOL V",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46105",
+        "name": "CHINA TOWN PRIMARY SCHOOL VI",
+        "parent_id": "1559"
+    },
+    {
+        "id": "46055",
+        "name": "EKULU PRIMARY SCHOOL I",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46056",
+        "name": "EKULU PRIMARY SCHOOL II",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46057",
+        "name": "EKULU PRIMARY SCHOOL III",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46058",
+        "name": "EKULU PRIMARY SCHOOL IV",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46059",
+        "name": "POLO   PARK I",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46060",
+        "name": "POLO   PARK II",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46061",
+        "name": "POLO   PARK III",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46062",
+        "name": "POLO   PARK IV",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46063",
+        "name": "POLO   PARK V",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46064",
+        "name": "POLO   PARK VI",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46065",
+        "name": "POLO   PARK VII",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46066",
+        "name": "POLO   PARK VIII",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46067",
+        "name": "G.T.C I",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46068",
+        "name": "G.T.C II",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46069",
+        "name": "EKULU PRIMARY SCHOOL I",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46070",
+        "name": "EKULU PRIMARY SCHOOL II",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46071",
+        "name": "EKULU PRIMARY SCHOOL III",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46072",
+        "name": "EKULU PRIMARY SCHOOL IV",
+        "parent_id": "2547"
+    },
+    {
+        "id": "46073",
+        "name": "W.T.C. I",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46074",
+        "name": "W.T.C. II",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46075",
+        "name": "W.T.C. III",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46076",
+        "name": "OBIAGU ROAD PRIMARY SCHOOL I",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46077",
+        "name": "OBIAGU ROAD PRIMARY SCHOOL II",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46078",
+        "name": "QUEEN'S SCHOOL I",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46079",
+        "name": "QUEEN'S SCHOOL II",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46080",
+        "name": "QUEEN'S SCHOOL III",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46081",
+        "name": "EDINBURGH PRIMARY SCHOOL I",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46082",
+        "name": "EDINBURGH PRIMARY SCHOOL II",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46083",
+        "name": "ENUGU CAMPUS I",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46084",
+        "name": "ENUGU CAMPUS II",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46085",
+        "name": "ENUGU CAMPUS III",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46086",
+        "name": "ENUGU CAMPUS IV",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46087",
+        "name": "EDINBURGH PRIMARY SCHOOL III",
+        "parent_id": "2921"
+    },
+    {
+        "id": "46088",
+        "name": "EDINBURGH PRIMARY SCHOOL IV",
+        "parent_id": "2921"
+    },
+    {
+        "id": "45996",
+        "name": "IHEWUZI SQUARE I",
+        "parent_id": "3403"
+    },
+    {
+        "id": "45997",
+        "name": "IHEWUZI SQUARE II",
+        "parent_id": "3403"
+    },
+    {
+        "id": "45998",
+        "name": "IHEWUZI SQUARE III",
+        "parent_id": "3403"
+    },
+    {
+        "id": "45999",
+        "name": "IHEWUZI SQUARE IV",
+        "parent_id": "3403"
+    },
+    {
+        "id": "46000",
+        "name": "IHEWUZI SQUARE V",
+        "parent_id": "3403"
+    },
+    {
+        "id": "46001",
+        "name": "ONUATOR SQUARE",
+        "parent_id": "3403"
+    },
+    {
+        "id": "46002",
+        "name": "IHEWUZI SQUARE VI",
+        "parent_id": "3403"
+    },
+    {
+        "id": "46003",
+        "name": "IHEWUZI SQUARE VII",
+        "parent_id": "3403"
+    },
+    {
+        "id": "46124",
+        "name": "FORMER N.A.F. NURSERY SCHOOL I",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46125",
+        "name": "FORMER N.A.F. NURSERY SCHOOL II",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46126",
+        "name": "OKPARA SQUARE I",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46127",
+        "name": "OKPARA SQUARE II",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46128",
+        "name": "OKPARA SQUARE III",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46129",
+        "name": "OKPARA SQUARE IV",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46130",
+        "name": "OKPARA SQUARE V",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46131",
+        "name": "OKPARA SQUARE VI",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46132",
+        "name": "FEDERAL GOVERNMENT SCHOOL I",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46133",
+        "name": "FEDERAL GOVERNMENT SCHOOL II",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46134",
+        "name": "I.M.T. CAMPUS I",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46135",
+        "name": "I.M.T. CAMPUS II",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46136",
+        "name": "FEDERAL GOVERNMENT SCHOOL III",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46137",
+        "name": "NZA ST. SQUARE",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46138",
+        "name": "NZA ST. SQUARE",
+        "parent_id": "3764"
+    },
+    {
+        "id": "46106",
+        "name": "NEW HAVEN PRIMARY SCHOOL I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46107",
+        "name": "NEW HAVEN PRIMARY SCHOOL II",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46108",
+        "name": "NEW HAVEN PRIMARY SCHOOL III",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46109",
+        "name": "NEW HAVEN PRIMARY SCHOOL IV",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46110",
+        "name": "NEW HAVEN PRIMARY SCHOOL V",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46111",
+        "name": "NEW HAVEN PRIMARY SCHOOL VI",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46112",
+        "name": "NEW HAVEN PRIMARY SCHOOL VII",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46113",
+        "name": "C.C.I. (SUYA SPOT) I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46114",
+        "name": "C.C.I. (SUYA SPOT) II",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46115",
+        "name": "C.C.I. (SUYA SPOT) III",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46116",
+        "name": "C.C.I. (SUYA SPOT) IV",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46117",
+        "name": "C.C.I. (SUYA SPOT) V",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46118",
+        "name": "C.C.I. (SUYA SPOT) VI",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46119",
+        "name": "C.C.I. (SUYA SPOT) VII",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46120",
+        "name": "C.C.I. (SUYA SPOT) VIII",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46121",
+        "name": "UGBO OKONKWO SQUARE I",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46122",
+        "name": "UGBO OKONKWO SQUARE II",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46123",
+        "name": "N.E.P.A. QUARTERS (NEAR VOM NURSERY)",
+        "parent_id": "3958"
+    },
+    {
+        "id": "46013",
+        "name": "COLLIERY PLAY GROUND I",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46014",
+        "name": "COLLIERY PLAY GROUND II",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46015",
+        "name": "COLLIERY PLAY GROUND III",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46016",
+        "name": "ST. PETER'S PRIMARY SCHOOL I",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46017",
+        "name": "ST. PETER'S PRIMARY SCHOOL II",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46018",
+        "name": "ST. PETER'S PRIMARY SCHOOL III",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46019",
+        "name": "ST. PATRICK'S PRIMARY SCHOOL I",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46020",
+        "name": "ST. PATRICK'S PRIMARY SCHOOL II",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46021",
+        "name": "ST. PATRICK'S PRIMARY SCHOOL III",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46022",
+        "name": "EJINDU PARK I",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46023",
+        "name": "EJINDU PARK II",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46024",
+        "name": "EJINDU PARK III",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46025",
+        "name": "EJINDU PARK IV",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46026",
+        "name": "OBED CAMP I",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46027",
+        "name": "OBED CAMP II",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46028",
+        "name": "OBED CAMP III",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46029",
+        "name": "EJINDU PARK V",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46030",
+        "name": "COLLIERY HALL IV",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46031",
+        "name": "ST. PATRICK'S PRIMARY SCHOOL IV",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46032",
+        "name": "EJINDU PARK VI",
+        "parent_id": "6158"
+    },
+    {
+        "id": "46033",
+        "name": "BROADRICK PRIMARY SCHOOL I",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46034",
+        "name": "BROADRICK PRIMARY SCHOOL II",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46035",
+        "name": "BROADRICK PRIMARY SCHOOL III",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46036",
+        "name": "BROADRICK PRIMARY SCHOOL IV",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46037",
+        "name": "BROADRICK PRIMARY SCHOOL V",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46038",
+        "name": "BROADRICK PRIMARY SCHOOL VI",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46039",
+        "name": "BROADRICK PRIMARY SCHOOL VII",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46040",
+        "name": "SPECIAL EDUCATION CENTRE I",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46041",
+        "name": "SPECIAL EDUCATION CENTRE II",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46042",
+        "name": "SPECIAL EDUCATION CENTRE III",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46043",
+        "name": "SPECIAL EDUCATION CENTRE IV",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46044",
+        "name": "SPECIAL EDUCATION CENTRE V",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46045",
+        "name": "OGBETTE PRIMARY SCHOOL I",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46046",
+        "name": "OGBETTE PRIMARY SCHOOL II",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46047",
+        "name": "OGBETTE PRIMARY SCHOOL III",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46048",
+        "name": "OGBETTE PRIMARY SCHOOL IV",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46049",
+        "name": "OGBETTE PRIMARY SCHOOL V",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46050",
+        "name": "OGBETTE PRIMARY SCHOOL VI",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46051",
+        "name": "AJAGU SQUARE I",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46052",
+        "name": "AJAGU SQUARE II",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46053",
+        "name": "AJAGU SQUARE III",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46054",
+        "name": "AJAGU SQUARE IV",
+        "parent_id": "6159"
+    },
+    {
+        "id": "46181",
+        "name": "SALVATION ARMY PRIMARY SCHOOL I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46182",
+        "name": "SALVATION ARMY PRIMARY SCHOOL II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46183",
+        "name": "SALVATION ARMY PRIMARY SCHOOL III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46184",
+        "name": "SALVATION ARMY PRIMARY SCHOOL IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46185",
+        "name": "METHODIST PRIMARY SCHOOL I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46186",
+        "name": "METHODIST PRIMARY SCHOOL II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46187",
+        "name": "METHODIST PRIMARY SCHOOL III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46188",
+        "name": "CARTER STREET PRIMARY SCHOOL I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46189",
+        "name": "CARTER STREET PRIMARY SCHOOL II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46190",
+        "name": "CARTER STREET PRIMARY SCHOOL III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46191",
+        "name": "CARTER STREET PRIMARY SCHOOL IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46192",
+        "name": "CARTER STREET PRIMARY SCHOOL V",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46193",
+        "name": "METHODIST PRIMARY SCHOOL IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46194",
+        "name": "METHODIST PRIMARY SCHOOL V",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46004",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) I",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46005",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) II",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46006",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) III",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46007",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) IV",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46008",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) V",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46009",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) VI",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46010",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) VII",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46011",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) VIII",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46012",
+        "name": "OGUI NIKE PRIMARY SCHOOL (ST. LUKE'S) IX",
+        "parent_id": "6724"
+    },
+    {
+        "id": "46139",
+        "name": "COLLIERY HALL I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46140",
+        "name": "COLLIERY HALL II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46141",
+        "name": "COLLIERY HALL III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46142",
+        "name": "ST. PATRICK'S IVA-VALLEY I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46143",
+        "name": "ST. PATRICK'S IVA-VALLEY II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46144",
+        "name": "COLLIERY PRIMARY SCHOOL",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46145",
+        "name": "IVA-VALLEY PRIMARY SCHOOL",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46146",
+        "name": "CAMP II IVA-VALLEY I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46147",
+        "name": "CAMP II IVA-VALLEY II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46148",
+        "name": "CAMP II IVA-VALLEY III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46149",
+        "name": "CAMP II IVA-VALLEY IV",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46150",
+        "name": "POTTERY IVA-VALLEY I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46151",
+        "name": "POTTERY IVA-VALLEY II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46152",
+        "name": "POTTERY IVA-VALLEY III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46153",
+        "name": "POTTERY IVA-VALLEY IV",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46154",
+        "name": "POTTERY IVA-VALLEY V",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46155",
+        "name": "WELFARE   HALL I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46156",
+        "name": "WELFARE   HALL II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46157",
+        "name": "WELFARE   HALL III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46158",
+        "name": "PRISON'S CLUB I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46159",
+        "name": "PRISON'S CLUB II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46160",
+        "name": "PRISON'S CLUB III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46161",
+        "name": "PRISON'S CLUB IV",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46162",
+        "name": "UGWUAKULU PRIMARY SCHOOL ENUGU NGWO I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46163",
+        "name": "UGWUAKULU PRIMARY SCHOOL ENUGU NGWO II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46164",
+        "name": "COLLIERY TECH. SCHOOL I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46165",
+        "name": "COLLIERY TECH. SCHOOL II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46166",
+        "name": "INDUSTRIAL  MISSION NGWO",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46167",
+        "name": "ARIA ROAD PRIMARY SCHOOL I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46168",
+        "name": "ARIA ROAD PRIMARY SCHOOL II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46169",
+        "name": "HILL-TOP NGWO I",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46170",
+        "name": "HILL-TOP NGWO II",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46171",
+        "name": "HILL-TOP NGWO III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46172",
+        "name": "HILL-TOP NGWO IV",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46173",
+        "name": "WELFARE HALL",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46174",
+        "name": "UGWU AKULU PRIMARY SCHOOL ENUGU NGWO III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46175",
+        "name": "UGWU AKULU PRIMARY SCHOOL ENUGU NGWO IV",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46176",
+        "name": "UGWU AKULU PRIMARY SCHOOL ENUGU NGWO V",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46177",
+        "name": "HILL TOP NGWO V",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46178",
+        "name": "HILL TOP NGWO VI",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46179",
+        "name": "CAMP II IVA VALLEY",
+        "parent_id": "7935"
+    },
+    {
+        "id": "46180",
+        "name": "ARIA ROAD PRIMARY SCHOOL III",
+        "parent_id": "7935"
+    },
+    {
+        "id": "45980",
+        "name": "AFIA NINE V/SQUARE I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45981",
+        "name": "AFIA NINE V/SQUARE II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45982",
+        "name": "AFIA NINE V/SQUARE III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45983",
+        "name": "AFIA NINE V/SQUARE IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45984",
+        "name": "AFIA NINE V/SQUARE V",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45985",
+        "name": "AFIA NINE V/SQUARE VI",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45986",
+        "name": "AFIA NINE V/SQUARE VII",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45987",
+        "name": "AFIA NINE V/SQUARE VIII",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45988",
+        "name": "ESUT  (FORMER CITY GIRLS') I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45989",
+        "name": "ESUT  (FORMER CITY GIRLS') II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45990",
+        "name": "ESUT  (FORMER CITY GIRLS') III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45991",
+        "name": "ESUT  (FORMER CITY GIRLS') IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45992",
+        "name": "ESUT  (FORMER CITY GIRLS') V",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45993",
+        "name": "AFIA NINE V/SQUARE IX",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45994",
+        "name": "ESUT (FORMER CITY GIRLS) VI",
+        "parent_id": "6244"
+    },
+    {
+        "id": "45995",
+        "name": "ESUT (FORMER CITY GIRLS) VII",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46283",
+        "name": "P&amp;T TRAINING SCHOOL, AGBANI ROAD (POST OFFICE PREMISES) I",
+        "parent_id": "114"
+    },
+    {
+        "id": "46284",
+        "name": "P&amp;T TRAINING SCHOOL, AGBANI ROAD (POST OFFICE PREMISES) II",
+        "parent_id": "114"
+    },
+    {
+        "id": "46285",
+        "name": "IDAW RIVER PRIMARY SCHOOL I",
+        "parent_id": "114"
+    },
+    {
+        "id": "46286",
+        "name": "IDAW RIVER PRIMARY SCHOOL II",
+        "parent_id": "114"
+    },
+    {
+        "id": "46287",
+        "name": "IDAW RIVER PRIMARY SCHOOL III",
+        "parent_id": "114"
+    },
+    {
+        "id": "46288",
+        "name": "IDAW RIVER SECONDARY SCHOOL I",
+        "parent_id": "114"
+    },
+    {
+        "id": "46289",
+        "name": "IDAW RIVER SECONDARY SCHOOL II",
+        "parent_id": "114"
+    },
+    {
+        "id": "46290",
+        "name": "IDAW RIVER SECONDARY SCHOOL III",
+        "parent_id": "114"
+    },
+    {
+        "id": "46291",
+        "name": "IDAW RIVER SECONDARY SCHOOL IV",
+        "parent_id": "114"
+    },
+    {
+        "id": "46292",
+        "name": "IDAW RIVER SECONDARY SCHOOL VIII",
+        "parent_id": "114"
+    },
+    {
+        "id": "46293",
+        "name": "P&amp;T TRAINING SCHOOL AGBANI ROAD (POST OFFICE) III",
+        "parent_id": "114"
+    },
+    {
+        "id": "46294",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL I",
+        "parent_id": "115"
+    },
+    {
+        "id": "46295",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL II",
+        "parent_id": "115"
+    },
+    {
+        "id": "46296",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL III",
+        "parent_id": "115"
+    },
+    {
+        "id": "46297",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL IV",
+        "parent_id": "115"
+    },
+    {
+        "id": "46298",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL V",
+        "parent_id": "115"
+    },
+    {
+        "id": "46299",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL VI",
+        "parent_id": "115"
+    },
+    {
+        "id": "46300",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL VII",
+        "parent_id": "115"
+    },
+    {
+        "id": "46301",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL VIII",
+        "parent_id": "115"
+    },
+    {
+        "id": "46302",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL IX",
+        "parent_id": "115"
+    },
+    {
+        "id": "46303",
+        "name": "IGBARIAM PRIMARY SCHOOL I",
+        "parent_id": "115"
+    },
+    {
+        "id": "46304",
+        "name": "IGBARIAM PRIMARY SCHOOL II",
+        "parent_id": "115"
+    },
+    {
+        "id": "46305",
+        "name": "IGBARIAM PRIMARY SCHOOL III",
+        "parent_id": "115"
+    },
+    {
+        "id": "46306",
+        "name": "IGBARIAM PRIMARY SCHOOL IV",
+        "parent_id": "115"
+    },
+    {
+        "id": "46307",
+        "name": "IGBARIAM PRIMARY SCHOOL V",
+        "parent_id": "115"
+    },
+    {
+        "id": "46308",
+        "name": "IGBARIAM PRIMARY SCHOOL VI",
+        "parent_id": "115"
+    },
+    {
+        "id": "46309",
+        "name": "IGBARIAM PRIMARY SCHOOL VII",
+        "parent_id": "115"
+    },
+    {
+        "id": "46310",
+        "name": "IGBARIAM PRIMARY SCHOOL VIII",
+        "parent_id": "115"
+    },
+    {
+        "id": "46311",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL X",
+        "parent_id": "115"
+    },
+    {
+        "id": "46312",
+        "name": "ACHARA LAYOUT PRIMARY SCHOOL XI",
+        "parent_id": "115"
+    },
+    {
+        "id": "46313",
+        "name": "IGBARIAM PRIMARY SCHOOL IX",
+        "parent_id": "115"
+    },
+    {
+        "id": "46363",
+        "name": "CENTRAL SCHOOL, AKWUKE I",
+        "parent_id": "503"
+    },
+    {
+        "id": "46364",
+        "name": "CENTRAL SCHOOL, AKWUKE II",
+        "parent_id": "503"
+    },
+    {
+        "id": "46365",
+        "name": "CENTRAL SCHOOL, AKWUKE III",
+        "parent_id": "503"
+    },
+    {
+        "id": "46366",
+        "name": "CENTRAL SCHOOL, AKWUKE IV",
+        "parent_id": "503"
+    },
+    {
+        "id": "46367",
+        "name": "CENTRAL SCHOOL, AKWUKE V",
+        "parent_id": "503"
+    },
+    {
+        "id": "46368",
+        "name": "ENTRACO BUS TERMINUS GARRIKI I",
+        "parent_id": "503"
+    },
+    {
+        "id": "46369",
+        "name": "ENTRACO BUS TERMINUS GARRIKI II",
+        "parent_id": "503"
+    },
+    {
+        "id": "46370",
+        "name": "ENTRACO BUS TERMINUS GARRIKI III",
+        "parent_id": "503"
+    },
+    {
+        "id": "46371",
+        "name": "ENTRACO BUS TERMINUS GARRIKI IV",
+        "parent_id": "503"
+    },
+    {
+        "id": "46372",
+        "name": "ENTRACO BUS TERMINUS GARRIKI V",
+        "parent_id": "503"
+    },
+    {
+        "id": "46373",
+        "name": "ONUNWA-OJUKWU ATTAKWU SQUARE",
+        "parent_id": "503"
+    },
+    {
+        "id": "46374",
+        "name": "OBODO NKPOKORO ECHIME SQUARE",
+        "parent_id": "503"
+    },
+    {
+        "id": "46375",
+        "name": "EKE MARKET SQUARE",
+        "parent_id": "503"
+    },
+    {
+        "id": "46195",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD I",
+        "parent_id": "658"
+    },
+    {
+        "id": "46196",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD II",
+        "parent_id": "658"
+    },
+    {
+        "id": "46197",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD III",
+        "parent_id": "658"
+    },
+    {
+        "id": "46198",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD IV",
+        "parent_id": "658"
+    },
+    {
+        "id": "46199",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD V",
+        "parent_id": "658"
+    },
+    {
+        "id": "46200",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD VI",
+        "parent_id": "658"
+    },
+    {
+        "id": "46201",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD VII",
+        "parent_id": "658"
+    },
+    {
+        "id": "46202",
+        "name": "PRIMARY SCHOOL, AMECHI I",
+        "parent_id": "658"
+    },
+    {
+        "id": "46203",
+        "name": "PRIMARY SCHOOL, AMECHI II",
+        "parent_id": "658"
+    },
+    {
+        "id": "46204",
+        "name": "PRIMARY SCHOOL, AMECHI III",
+        "parent_id": "658"
+    },
+    {
+        "id": "46205",
+        "name": "PRIMARY SCHOOL, AMECHI IV",
+        "parent_id": "658"
+    },
+    {
+        "id": "46206",
+        "name": "PRIMARY SCHOOL, AMECHI V",
+        "parent_id": "658"
+    },
+    {
+        "id": "46207",
+        "name": "PRIMARY SCHOOL, AMECHI VI",
+        "parent_id": "658"
+    },
+    {
+        "id": "46208",
+        "name": "PRIMARY SCHOOL, AMECHI VII",
+        "parent_id": "658"
+    },
+    {
+        "id": "46209",
+        "name": "PRIMARY SCHOOL, AMECHI VIII",
+        "parent_id": "658"
+    },
+    {
+        "id": "46210",
+        "name": "PRIMARY SCHOOL, AMECHI IX",
+        "parent_id": "658"
+    },
+    {
+        "id": "46211",
+        "name": "PRIMARY SCHOOL, AMECHI X",
+        "parent_id": "658"
+    },
+    {
+        "id": "46212",
+        "name": "PRIMARY SCHOOL, AMECHI XI",
+        "parent_id": "658"
+    },
+    {
+        "id": "46213",
+        "name": "PRIMARY SCHOOL AMECHI XII",
+        "parent_id": "658"
+    },
+    {
+        "id": "46214",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD VIII",
+        "parent_id": "658"
+    },
+    {
+        "id": "46215",
+        "name": "IMO TRANSPORT COMPANY, 360 AGBANI ROAD IX",
+        "parent_id": "658"
+    },
+    {
+        "id": "46216",
+        "name": "C.P.S. AMECHI I",
+        "parent_id": "659"
+    },
+    {
+        "id": "46217",
+        "name": "C.P.S. AMECHI II",
+        "parent_id": "659"
+    },
+    {
+        "id": "46218",
+        "name": "C.P.S. AMECHI III",
+        "parent_id": "659"
+    },
+    {
+        "id": "46219",
+        "name": "C.P.S. AMECHI IV",
+        "parent_id": "659"
+    },
+    {
+        "id": "46220",
+        "name": "C.P.S. AMECHI V",
+        "parent_id": "659"
+    },
+    {
+        "id": "46221",
+        "name": "C.P.S. AMECHI VI",
+        "parent_id": "659"
+    },
+    {
+        "id": "46222",
+        "name": "C.P.S. AMECHI VII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46223",
+        "name": "C.P.S. AMECHI VIII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46224",
+        "name": "C.P.S. AMECHI IX",
+        "parent_id": "659"
+    },
+    {
+        "id": "46225",
+        "name": "C.P.S. AMECHI X",
+        "parent_id": "659"
+    },
+    {
+        "id": "46226",
+        "name": "NDIORIE AMECHI I",
+        "parent_id": "659"
+    },
+    {
+        "id": "46227",
+        "name": "NDIORIE AMECHI II",
+        "parent_id": "659"
+    },
+    {
+        "id": "46228",
+        "name": "NDIORIE AMECHI III",
+        "parent_id": "659"
+    },
+    {
+        "id": "46229",
+        "name": "NDIORIE AMECHI IV",
+        "parent_id": "659"
+    },
+    {
+        "id": "46230",
+        "name": "NDIORIE AMECHI V",
+        "parent_id": "659"
+    },
+    {
+        "id": "46231",
+        "name": "EKE OTU MARKET SQUARE",
+        "parent_id": "659"
+    },
+    {
+        "id": "46314",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW I",
+        "parent_id": "659"
+    },
+    {
+        "id": "46315",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW II",
+        "parent_id": "659"
+    },
+    {
+        "id": "46316",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW III",
+        "parent_id": "659"
+    },
+    {
+        "id": "46317",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW IV",
+        "parent_id": "659"
+    },
+    {
+        "id": "46318",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW V",
+        "parent_id": "659"
+    },
+    {
+        "id": "46319",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW VI",
+        "parent_id": "659"
+    },
+    {
+        "id": "46320",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW VII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46321",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW VIII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46322",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW IX",
+        "parent_id": "659"
+    },
+    {
+        "id": "46323",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW X",
+        "parent_id": "659"
+    },
+    {
+        "id": "46324",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW XI",
+        "parent_id": "659"
+    },
+    {
+        "id": "46325",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW XII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46326",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW XIII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46327",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW XIV",
+        "parent_id": "659"
+    },
+    {
+        "id": "46328",
+        "name": "UNION SECONDARY SCHOOL, AWKUNANAW XV",
+        "parent_id": "659"
+    },
+    {
+        "id": "46329",
+        "name": "UNION SEC. SCHOOL AWKUNANAW XVI",
+        "parent_id": "659"
+    },
+    {
+        "id": "46330",
+        "name": "UNION SEC. SCHOOL AWKUNANAW XVII",
+        "parent_id": "659"
+    },
+    {
+        "id": "46331",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW I",
+        "parent_id": "960"
+    },
+    {
+        "id": "46332",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW II",
+        "parent_id": "960"
+    },
+    {
+        "id": "46333",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW III",
+        "parent_id": "960"
+    },
+    {
+        "id": "46334",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW IV",
+        "parent_id": "960"
+    },
+    {
+        "id": "46335",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW V",
+        "parent_id": "960"
+    },
+    {
+        "id": "46336",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW VI",
+        "parent_id": "960"
+    },
+    {
+        "id": "46337",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW VII",
+        "parent_id": "960"
+    },
+    {
+        "id": "46338",
+        "name": "GIRLS' GRAMMAR SCHOOL, AWKUNANAW VIII",
+        "parent_id": "960"
+    },
+    {
+        "id": "46339",
+        "name": "GIRL'S GRAMMAR SCHOOL AWKUNANAW IX",
+        "parent_id": "960"
+    },
+    {
+        "id": "46340",
+        "name": "GIRL'S GRAMMAR SCHOOL AWKUNANAW X",
+        "parent_id": "960"
+    },
+    {
+        "id": "46376",
+        "name": "NEW ERA BOYS' SECONDARY SCHOOL (NEBSS) I",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46377",
+        "name": "NEW ERA BOYS' SECONDARY SCHOOL (NEBSS) II",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46378",
+        "name": "NEW ERA BOYS' SECONDARY SCHOOL (NEBSS) III",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46379",
+        "name": "AYO OPEN SPACE",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46380",
+        "name": "TIMBER SHED I",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46381",
+        "name": "TIMBER SHED II",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46382",
+        "name": "C.S.S. NDIAGU AMECHI I",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46383",
+        "name": "C.S.S. NDIAGU AMECHI II",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46384",
+        "name": "C.S.S. NDIAGU AMECHI III",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46385",
+        "name": "NEW ERA BOYS SEC. SCHOOL IV",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46386",
+        "name": "TIMBER SHED III",
+        "parent_id": "5256"
+    },
+    {
+        "id": "46232",
+        "name": "COMMUNITY SECONDARY SCHOOL, OBEAGU I",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46233",
+        "name": "COMMUNITY SECONDARY SCHOOL, OBEAGU II",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46234",
+        "name": "COMMUNITY SECONDARY SCHOOL, OBEAGU III",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46235",
+        "name": "COMMUNITY SECONDARY SCHOOL, OBEAGU IV",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46236",
+        "name": "COMMUNITY SECONDARY SCHOOL, OBEAGU V",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46237",
+        "name": "COMMUNITY SECONDARY SCHOOL, OBEAGU VI",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46238",
+        "name": "ANIANYA VILLAGE SQUARE I",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46239",
+        "name": "ANIANYA VILLAGE SQUARE II",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46240",
+        "name": "IGWEKAMMA AMEGU VILLAGE SQUARE I",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46241",
+        "name": "IGWEKAMMA AMEGU VILLAGE SQUARE II",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46242",
+        "name": "IGWEKAMMA AMEGU VILLAGE SQUARE III",
+        "parent_id": "5928"
+    },
+    {
+        "id": "46352",
+        "name": "CENTRAL SCHOOL, OBEAGU I",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46353",
+        "name": "CENTRAL SCHOOL, OBEAGU II",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46354",
+        "name": "ST. JAMES PRIMARY SCHOOL, OBEAGU I",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46355",
+        "name": "ST. JAMES PRIMARY SCHOOL, OBEAGU II",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46356",
+        "name": "ST. JAMES PRIMARY SCHOOL, OBEAGU III",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46357",
+        "name": "ST. JAMES PRIMARY SCHOOL, OBEAGU IV",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46358",
+        "name": "ST. JAMES PRIMARY SCHOOL, OBEAGU V",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46359",
+        "name": "CENTRAL SCHOOL, OBEAGU III",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46360",
+        "name": "CENTRAL SCHOOL OBEAGU IV",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46361",
+        "name": "ST. JAMES PRIMARY SCHOOL OBEAGU VI",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46362",
+        "name": "ST. JAMES PRIMARY SCHOOL OBEAGU VII",
+        "parent_id": "5929"
+    },
+    {
+        "id": "46341",
+        "name": "CENTRAL SCHOOL, UGWUAJI I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46342",
+        "name": "CENTRAL SCHOOL, UGWUAJI II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46343",
+        "name": "ORIE MARKET SQUARE",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46344",
+        "name": "C.P.S., UGWUAJI I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46345",
+        "name": "C.P.S., UGWUAJI II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46346",
+        "name": "C.P.S., UGWUAJI III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46347",
+        "name": "C.P.S., UGWUAJI IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46348",
+        "name": "OBODO ANI-IRA SQUARE",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46349",
+        "name": "IHU ANEKE VILLAGE SQUARE",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46350",
+        "name": "UMUNUGWU VILLAGE HALL",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46351",
+        "name": "AFOR MARKET SQUARE",
+        "parent_id": "6244"
+    },
+    {
+        "id": "46341",
+        "name": "CENTRAL SCHOOL, UGWUAJI I",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46342",
+        "name": "CENTRAL SCHOOL, UGWUAJI II",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46343",
+        "name": "ORIE MARKET SQUARE",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46344",
+        "name": "C.P.S., UGWUAJI I",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46345",
+        "name": "C.P.S., UGWUAJI II",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46346",
+        "name": "C.P.S., UGWUAJI III",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46347",
+        "name": "C.P.S., UGWUAJI IV",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46348",
+        "name": "OBODO ANI-IRA SQUARE",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46349",
+        "name": "IHU ANEKE VILLAGE SQUARE",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46350",
+        "name": "UMUNUGWU VILLAGE HALL",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46351",
+        "name": "AFOR MARKET SQUARE",
+        "parent_id": "8011"
+    },
+    {
+        "id": "46243",
+        "name": "UWANI RIVER PRIMARY SCHOOL I",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46244",
+        "name": "UWANI RIVER PRIMARY SCHOOL II",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46245",
+        "name": "UWANI RIVER PRIMARY SCHOOL III",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46246",
+        "name": "ST. MARY'S, BIGARD I",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46247",
+        "name": "ST. MARY'S, BIGARD II",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46248",
+        "name": "ST. MARY'S, BIGARD III",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46249",
+        "name": "ST. MARY'S, BIGARD IV",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46250",
+        "name": "ZIK AVENUE PRIMARY SCHOOL I",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46251",
+        "name": "ZIK AVENUE PRIMARY SCHOOL II",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46252",
+        "name": "ZIK AVENUE PRIMARY SCHOOL III",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46253",
+        "name": "ZIK AVENUE PRIMARY SCHOOL IV",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46254",
+        "name": "AGBANI ROAD PRIMARY SCHOOL I",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46255",
+        "name": "AGBANI ROAD PRIMARY SCHOOL II",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46256",
+        "name": "AGBANI ROAD PRIMARY SCHOOL III",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46257",
+        "name": "AGBANI ROAD PRIMARY SCHOOL IV",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46258",
+        "name": "ONWUDIWE PARK I",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46259",
+        "name": "ONWUDIWE PARK II",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46260",
+        "name": "ONWUDIWE PARK III",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46261",
+        "name": "ONWUDIWE PARK IV",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46262",
+        "name": "UWANI RIVER PRIMARY SCHOOL IV",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46263",
+        "name": "ZIK AVENUE PRIMARY SCHOOL V",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46264",
+        "name": "ZIK AVENUE PRIMARY SCHOOL VI",
+        "parent_id": "8353"
+    },
+    {
+        "id": "46265",
+        "name": "UWANI SECONDARY SCHOOL I",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46266",
+        "name": "UWANI SECONDARY SCHOOL II",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46267",
+        "name": "UWANI SECONDARY SCHOOL III",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46268",
+        "name": "UWANI SECONDARY SCHOOL IV",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46269",
+        "name": "NIGER CLOSE PRIMARY SCHOOL I",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46270",
+        "name": "NIGER CLOSE PRIMARY SCHOOL II",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46271",
+        "name": "NIGER CLOSE PRIMARY SCHOOL III",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46272",
+        "name": "ROBINSON STREET PRIMARY SCHOOL I",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46273",
+        "name": "ROBINSON STREET PRIMARY SCHOOL II",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46274",
+        "name": "ROBINSON STREET PRIMARY SCHOOL III",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46275",
+        "name": "CHESHIRE HOME I",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46276",
+        "name": "CHESHIRE HOME II",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46277",
+        "name": "CHESHIRE HOME III",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46278",
+        "name": "CHESHIRE HOME IV",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46279",
+        "name": "CHESHIRE HOME V",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46280",
+        "name": "CHESHIRE HOME VI",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46281",
+        "name": "ROBINSON STREET PRIMARY SCHOOL IV",
+        "parent_id": "8354"
+    },
+    {
+        "id": "46282",
+        "name": "ROBINSON STREET PRIMARY SCHOOL V",
+        "parent_id": "8354"
+    },
+    {
+        "id": "42206",
+        "name": "COMMUNITY  PRIMARY  SCHOOL  AGBA UMANA I",
+        "parent_id": "224"
+    },
+    {
+        "id": "42207",
+        "name": "COMMUNITY  PRIMARY  SCHOOL  AGBA UMANA II",
+        "parent_id": "224"
+    },
+    {
+        "id": "42208",
+        "name": "COMMUNITY  PRIMARY  S0CHOOL  AGBA UMANA III",
+        "parent_id": "224"
+    },
+    {
+        "id": "42209",
+        "name": "C.S. UMANA",
+        "parent_id": "224"
+    },
+    {
+        "id": "42210",
+        "name": "UMUEZE VILLAGE HALL I",
+        "parent_id": "224"
+    },
+    {
+        "id": "42211",
+        "name": "UMUEZE VILLAGE HALL II",
+        "parent_id": "224"
+    },
+    {
+        "id": "42212",
+        "name": "CENTRAL  SCHOOL  AGUOBU-UMUBA I",
+        "parent_id": "310"
+    },
+    {
+        "id": "42213",
+        "name": "COMMUNITY PRIMARY  SCHOOL  AGUOBU-UMUBA II",
+        "parent_id": "310"
+    },
+    {
+        "id": "42214",
+        "name": "I.P.S. AZUNGENE",
+        "parent_id": "310"
+    },
+    {
+        "id": "42215",
+        "name": "COMMUNITY  PRIMARY  SCHOOL  UMUMBA NDIAGU I",
+        "parent_id": "310"
+    },
+    {
+        "id": "42216",
+        "name": "COMMUNITY PRIMARY  SCHOOL  UMUMBA NDIAGU II",
+        "parent_id": "310"
+    },
+    {
+        "id": "42177",
+        "name": "EKE MARKET SQUARE",
+        "parent_id": "311"
+    },
+    {
+        "id": "42178",
+        "name": "C.P.S.  OZOM",
+        "parent_id": "311"
+    },
+    {
+        "id": "42179",
+        "name": "OBODO AGUNOCHI",
+        "parent_id": "311"
+    },
+    {
+        "id": "42180",
+        "name": "OBODO EKETEKE SQUARE",
+        "parent_id": "311"
+    },
+    {
+        "id": "42181",
+        "name": "C.P.S. OBODO NGWU",
+        "parent_id": "311"
+    },
+    {
+        "id": "42182",
+        "name": "C.S. AGUOBU-OWA",
+        "parent_id": "311"
+    },
+    {
+        "id": "42183",
+        "name": "OBODO OKPOYO TOWN HALL",
+        "parent_id": "311"
+    },
+    {
+        "id": "42184",
+        "name": "P.S. OBODO NGWU II",
+        "parent_id": "311"
+    },
+    {
+        "id": "42185",
+        "name": "OBODO ISI AKPU VILLAGE SQUARE",
+        "parent_id": "311"
+    },
+    {
+        "id": "42217",
+        "name": "COMMUNITY PRIMARY  SCHOOL  UMUMBA NDIAGU EXT.",
+        "parent_id": "310"
+    },
+    {
+        "id": "42218",
+        "name": "C.P.S. UMUMBA NDIAGU III",
+        "parent_id": "310"
+    },
+    {
+        "id": "42219",
+        "name": "IDUME AGUOBU VILLAGE SQUARE",
+        "parent_id": "310"
+    },
+    {
+        "id": "42177",
+        "name": "EKE MARKET SQUARE",
+        "parent_id": "311"
+    },
+    {
+        "id": "42178",
+        "name": "C.P.S.  OZOM",
+        "parent_id": "311"
+    },
+    {
+        "id": "42179",
+        "name": "OBODO AGUNOCHI",
+        "parent_id": "311"
+    },
+    {
+        "id": "42180",
+        "name": "OBODO EKETEKE SQUARE",
+        "parent_id": "311"
+    },
+    {
+        "id": "42181",
+        "name": "C.P.S. OBODO NGWU",
+        "parent_id": "311"
+    },
+    {
+        "id": "42182",
+        "name": "C.S. AGUOBU-OWA",
+        "parent_id": "311"
+    },
+    {
+        "id": "42183",
+        "name": "OBODO OKPOYO TOWN HALL",
+        "parent_id": "311"
+    },
+    {
+        "id": "42184",
+        "name": "P.S. OBODO NGWU II",
+        "parent_id": "311"
+    },
+    {
+        "id": "42185",
+        "name": "OBODO ISI AKPU VILLAGE SQUARE",
+        "parent_id": "311"
+    },
+    {
+        "id": "42186",
+        "name": "AFIA EZEMA MKT. SQ.",
+        "parent_id": "312"
+    },
+    {
+        "id": "42187",
+        "name": "U.P.S. EZEMA I",
+        "parent_id": "312"
+    },
+    {
+        "id": "42188",
+        "name": "U.P.S. EZEMA II",
+        "parent_id": "312"
+    },
+    {
+        "id": "42189",
+        "name": "C.P.S. UMUDIM I",
+        "parent_id": "312"
+    },
+    {
+        "id": "42190",
+        "name": "C.P.S. UMUDIM II",
+        "parent_id": "312"
+    },
+    {
+        "id": "42191",
+        "name": "S.P.S. UMUAJI I",
+        "parent_id": "312"
+    },
+    {
+        "id": "42192",
+        "name": "S.P.S. UMUAJI II",
+        "parent_id": "312"
+    },
+    {
+        "id": "42193",
+        "name": "S.P.S. EZEMA III",
+        "parent_id": "312"
+    },
+    {
+        "id": "42194",
+        "name": "EZIBUANAKO VILLAGE SQUARE",
+        "parent_id": "312"
+    },
+    {
+        "id": "42195",
+        "name": "OBODO AKWALI SQ",
+        "parent_id": "312"
+    },
+    {
+        "id": "42175",
+        "name": "C.P.S. AGUOBU AWHA NDIAGU",
+        "parent_id": "946"
+    },
+    {
+        "id": "42176",
+        "name": "ORIEDIABA SQUARE AWHA NDIAGU",
+        "parent_id": "946"
+    },
+    {
+        "id": "46396",
+        "name": "MADONNA MATERNITY",
+        "parent_id": "946"
+    },
+    {
+        "id": "46397",
+        "name": "C.P.S. AWHA NDIAGU I",
+        "parent_id": "946"
+    },
+    {
+        "id": "46398",
+        "name": "C.P.S. AWHA NDIAGU II",
+        "parent_id": "946"
+    },
+    {
+        "id": "46399",
+        "name": "C.P.S. AGBAGBO I",
+        "parent_id": "946"
+    },
+    {
+        "id": "46400",
+        "name": "C.P.S. AGBAGBO II",
+        "parent_id": "946"
+    },
+    {
+        "id": "46401",
+        "name": "C.P.S. AGBAGBO III",
+        "parent_id": "946"
+    },
+    {
+        "id": "46402",
+        "name": "C.P.S. AGBAGBO IV",
+        "parent_id": "946"
+    },
+    {
+        "id": "42239",
+        "name": "P.S. UMUDIOHA I",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42240",
+        "name": "P.S. UMUDIOHA II",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42241",
+        "name": "ANIAKAA UMUAJI SQUARE",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42242",
+        "name": "C.P.S. UMUAJI/UMUDIM I",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42243",
+        "name": "C.P.S. UKPATA EZEMA I",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42244",
+        "name": "C.P.S. UKPATA EZEMA II",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42245",
+        "name": "C.P.S. UMUAJI/IMUDIM II",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42246",
+        "name": "C.P.S. UKPATA EZEMA III",
+        "parent_id": "3744"
+    },
+    {
+        "id": "42247",
+        "name": "ABONUZU PUBLIC SQUARE",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42248",
+        "name": "OBODO NZU PUBLIC SQUARE I",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42249",
+        "name": "OBODO NZU PUBLIC SQUARE II",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42250",
+        "name": "C.S. IMEZI-OWA",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42251",
+        "name": "ONUBUEZEANI SQUARE",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42252",
+        "name": "UMUEZEDUME HALL",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42253",
+        "name": "AGBANI SQUARE",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42254",
+        "name": "ABONUZU PUBLIC SQUARE II",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42255",
+        "name": "ANI ENUGWU SQUARE",
+        "parent_id": "3745"
+    },
+    {
+        "id": "42247",
+        "name": "ABONUZU PUBLIC SQUARE",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42248",
+        "name": "OBODO NZU PUBLIC SQUARE I",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42249",
+        "name": "OBODO NZU PUBLIC SQUARE II",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42250",
+        "name": "C.S. IMEZI-OWA",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42251",
+        "name": "ONUBUEZEANI SQUARE",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42252",
+        "name": "UMUEZEDUME HALL",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42253",
+        "name": "AGBANI SQUARE",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42254",
+        "name": "ABONUZU PUBLIC SQUARE II",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42255",
+        "name": "ANI ENUGWU SQUARE",
+        "parent_id": "4026"
+    },
+    {
+        "id": "42256",
+        "name": "C.P.S. UMUAJI I",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42257",
+        "name": "C.P.S. UMUAJI II",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42258",
+        "name": "C.P.S. EZEMA",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42259",
+        "name": "C.P.S. UMUDIM",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42260",
+        "name": "MGBAGBU-OWA TOWN HALL",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42261",
+        "name": "C.P.S. UMUAJI III",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42262",
+        "name": "C.P.S. UMUDIM II",
+        "parent_id": "5457"
+    },
+    {
+        "id": "42269",
+        "name": "NKWO OYOFO SQUARE I",
+        "parent_id": "5458"
+    },
+    {
+        "id": "42270",
+        "name": "NKWO OYOFO SQUARE II",
+        "parent_id": "5458"
+    },
+    {
+        "id": "42271",
+        "name": "OBODOCHA SQUARE I",
+        "parent_id": "5458"
+    },
+    {
+        "id": "42272",
+        "name": "OBODOCHA SQUARE II",
+        "parent_id": "5458"
+    },
+    {
+        "id": "42273",
+        "name": "OBODOCHA SQUARE III",
+        "parent_id": "5458"
+    },
+    {
+        "id": "42274",
+        "name": "NKWO OYOFO SQUARE III",
+        "parent_id": "5458"
+    },
+    {
+        "id": "42263",
+        "name": "NCHANAWA VILLAGE SQUARE",
+        "parent_id": "5459"
+    },
+    {
+        "id": "42264",
+        "name": "UGWUANIGBO I",
+        "parent_id": "5459"
+    },
+    {
+        "id": "42265",
+        "name": "UGWUANIGBO II",
+        "parent_id": "5459"
+    },
+    {
+        "id": "42266",
+        "name": "MADONNA MATERNITY",
+        "parent_id": "5459"
+    },
+    {
+        "id": "42267",
+        "name": "NWAFOR UGWUAKPA",
+        "parent_id": "5459"
+    },
+    {
+        "id": "42268",
+        "name": "NCHANAWA VILLAGE SQUARE II",
+        "parent_id": "5459"
+    },
+    {
+        "id": "42299",
+        "name": "C.P.S. OBELEAGU",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42300",
+        "name": "OKPUDO HALL I",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42301",
+        "name": "OKPUDO HALL II",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42302",
+        "name": "OGWUBUDO SQUARE I",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42303",
+        "name": "OGWUBUDO SQUARE II",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42304",
+        "name": "AMUBE SQUARE",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42305",
+        "name": "C.P.S. OMUGHU",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42306",
+        "name": "UGWUAKULU HALL I",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42307",
+        "name": "UGWUAKULU HALL  II",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42308",
+        "name": "UMUALIONGENE SQUARE",
+        "parent_id": "5925"
+    },
+    {
+        "id": "42284",
+        "name": "OBODO IYI MARKET SQUARE",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42285",
+        "name": "C.P.S. OBINOFIA NDIUNO I",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42286",
+        "name": "C.P.S. OBINOFIA NDIAGU",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42287",
+        "name": "C.S. OBINOFIA NDIUNO",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42288",
+        "name": "C.S. OBINOFIA NDIAGU",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42289",
+        "name": "C.S.  IHUEZED OBINOFIA",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42290",
+        "name": "UMUEZE VILLAGE SQUARE",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42291",
+        "name": "M.P.S. OBINOFIA",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42292",
+        "name": "OKPOSHI MARKET SQUARE",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42293",
+        "name": "UGWUEZEABUSHI SQUARE",
+        "parent_id": "5957"
+    },
+    {
+        "id": "42226",
+        "name": "C.P.S. AMANKWO NDIAGU",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42227",
+        "name": "C.P.S. AMANKWO IMEZI I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42228",
+        "name": "C.P.S. AMANKWO IMEZI II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42229",
+        "name": "C.P.S. AKAMA OGHE I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42230",
+        "name": "C.P.S. AKAMA OGHE II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42231",
+        "name": "UMUOCHI SQUARE",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42232",
+        "name": "C.P.S. AMANKWO NDIAGU",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42233",
+        "name": "IHUONYIA VILLAGE SQUARE I",
+        "parent_id": "6206"
+    },
+    {
+        "id": "42234",
+        "name": "IHUONYIA VILLAGE SQUARE II",
+        "parent_id": "6206"
+    },
+    {
+        "id": "42235",
+        "name": "M.P.S. AMANSIODO IMEZI I",
+        "parent_id": "6206"
+    },
+    {
+        "id": "42236",
+        "name": "M.P.S. AMANSIODO IMEZI II",
+        "parent_id": "6206"
+    },
+    {
+        "id": "42237",
+        "name": "M.P.S. AMANSIODO IMEZI III",
+        "parent_id": "6206"
+    },
+    {
+        "id": "42238",
+        "name": "M.P.S. AMANSIODO IMEZI IV",
+        "parent_id": "6206"
+    },
+    {
+        "id": "42294",
+        "name": "C.P.S. OKPOGHO MBUTA",
+        "parent_id": "6507"
+    },
+    {
+        "id": "42295",
+        "name": "OBUAGU SQUARE I",
+        "parent_id": "6507"
+    },
+    {
+        "id": "42296",
+        "name": "OBUAGU SQUARE II",
+        "parent_id": "6507"
+    },
+    {
+        "id": "42297",
+        "name": "C.P.S. OKPOGHO OKUBE",
+        "parent_id": "6507"
+    },
+    {
+        "id": "42298",
+        "name": "UKWUAGBA VILLAGE SQUARE",
+        "parent_id": "6507"
+    },
+    {
+        "id": "46387",
+        "name": "AMAGU UMULOKPA C.P.S.",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46388",
+        "name": "AMAGU AMAMDIM HALL",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46389",
+        "name": "C.P.S. IBITE OLO I",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46390",
+        "name": "C.P.S. IBITE OLO II",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46391",
+        "name": "C.P.S. ACHALLA OWA",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46392",
+        "name": "C.P.S. AMANDIM OLO I",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46393",
+        "name": "UGBO OZOUME/PRISONS FARMS",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46394",
+        "name": "C.P.S. AMANDIM OLO II",
+        "parent_id": "6590"
+    },
+    {
+        "id": "46395",
+        "name": "AMAGU AMANDIM HALL",
+        "parent_id": "6590"
+    },
+    {
+        "id": "42309",
+        "name": "C.P.S. EZEMA OLO I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42310",
+        "name": "C.P.S. EZEMA OLO II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42311",
+        "name": "C.P.S. EZEMA OLO III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42312",
+        "name": "C.P.S. EZEMA OLO IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42313",
+        "name": "C.P.S AWENE OLO I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42314",
+        "name": "C.P.S AWENE OLO II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42315",
+        "name": "C.P.S AWENE OLO III",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42316",
+        "name": "C.P.S. OGULOGU I",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42317",
+        "name": "C.P.S. OGULOGU II",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42318",
+        "name": "C.P.S. AWENE OLO IV",
+        "parent_id": "6244"
+    },
+    {
+        "id": "42196",
+        "name": "OWELLEMBA VILLAGE HALL",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42197",
+        "name": "C.P.S. UMANA NDIUNO",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42198",
+        "name": "P.S. AGUAGBAJA NDIAGU I",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42199",
+        "name": "P.S. KKAGUAGBAJA NDIAGU II",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42200",
+        "name": "C.P.S. ISIGWU UMANA",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42201",
+        "name": "C.P.S. C.S. AGUAGBAJA I",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42202",
+        "name": "NKWOALUSI MARKET SQUARE I",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42203",
+        "name": "NKWOALUSI MARKET SQUARE II",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42204",
+        "name": "C.S. AGUAGBAJA II",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42205",
+        "name": "P.S. AGU AGBAJA NDIAGU III",
+        "parent_id": "8087"
+    },
+    {
+        "id": "42220",
+        "name": "UMUDAMA HALL",
+        "parent_id": "8175"
+    },
+    {
+        "id": "42221",
+        "name": "C.P.S. UMUMBA NDIUNO",
+        "parent_id": "8175"
+    },
+    {
+        "id": "42222",
+        "name": "C.S. OKPUEZE",
+        "parent_id": "8175"
+    },
+    {
+        "id": "42223",
+        "name": "C.P.S. AGUOBA UMUMBA",
+        "parent_id": "8175"
+    },
+    {
+        "id": "42224",
+        "name": "IDUME VILLAGE SQUARE",
+        "parent_id": "8175"
+    },
+    {
+        "id": "42225",
+        "name": "IHUAJI VILLAGE SQUARE",
+        "parent_id": "8175"
+    },
+    {
+        "id": "42319",
+        "name": "AMEGUWENU VILLAGE HALL",
+        "parent_id": "472"
+    },
+    {
+        "id": "42320",
+        "name": "AMEGUWANI VILLAGE SQUARE I",
+        "parent_id": "472"
+    },
+    {
+        "id": "42321",
+        "name": "AMEGUWANI VILLAGE SQUARE II",
+        "parent_id": "472"
+    },
+    {
+        "id": "42322",
+        "name": "OWERE VILLAGE SQUARE",
+        "parent_id": "472"
+    },
+    {
+        "id": "42323",
+        "name": "AGUMOHA VILLAGE SQUARE",
+        "parent_id": "472"
+    },
+    {
+        "id": "42324",
+        "name": "PREMIER PRIMARY SCHOOL",
+        "parent_id": "472"
+    },
+    {
+        "id": "42325",
+        "name": "UMUDIMALOKEOCHA VILLAGE HALL",
+        "parent_id": "472"
+    },
+    {
+        "id": "42326",
+        "name": "AMANI VILLAGE SQUARE",
+        "parent_id": "472"
+    },
+    {
+        "id": "42327",
+        "name": "USE VILLAGE SQUARE",
+        "parent_id": "473"
+    },
+    {
+        "id": "42328",
+        "name": "UWANI AMAOGBO VILLAGE SQUARE",
+        "parent_id": "473"
+    },
+    {
+        "id": "42329",
+        "name": "UWANI  AMABOKWU",
+        "parent_id": "473"
+    },
+    {
+        "id": "42330",
+        "name": "UWENU AMABOKWU",
+        "parent_id": "473"
+    },
+    {
+        "id": "42331",
+        "name": "UMUDINGWOJI  VILLAGE SQUARE",
+        "parent_id": "473"
+    },
+    {
+        "id": "42332",
+        "name": "UMUDIMAGADA   VILLAGE SQUARE",
+        "parent_id": "473"
+    },
+    {
+        "id": "42333",
+        "name": "AMABOKWU PRIMARY SCHOOL",
+        "parent_id": "473"
+    },
+    {
+        "id": "42334",
+        "name": "UWANI OTOBO VILLAGE SQUARE",
+        "parent_id": "474"
+    },
+    {
+        "id": "42335",
+        "name": "AMADIEFFIA VILLAGE SQUARE",
+        "parent_id": "474"
+    },
+    {
+        "id": "42336",
+        "name": "AMANKPO  VILLAGE SQUARE",
+        "parent_id": "474"
+    },
+    {
+        "id": "42337",
+        "name": "CENTRAL SCHOOL, AKU",
+        "parent_id": "474"
+    },
+    {
+        "id": "42338",
+        "name": "UMUDO OFFIENYI VILLAGE HALL I",
+        "parent_id": "474"
+    },
+    {
+        "id": "42339",
+        "name": "UMUDO OFFIENYI VILLAGE HALL II",
+        "parent_id": "474"
+    },
+    {
+        "id": "42340",
+        "name": "AMAGU UWANI VILLAGE HALL  I",
+        "parent_id": "474"
+    },
+    {
+        "id": "42341",
+        "name": "AMAGU UWANI VILLAGE HALL  II",
+        "parent_id": "474"
+    },
+    {
+        "id": "42342",
+        "name": "AMAEZIKE VILLAGE HALL I",
+        "parent_id": "474"
+    },
+    {
+        "id": "42343",
+        "name": "AMAEZIKE VILLAGE HALL II",
+        "parent_id": "474"
+    },
+    {
+        "id": "42344",
+        "name": "OTOBO UMUDIKWU",
+        "parent_id": "475"
+    },
+    {
+        "id": "42345",
+        "name": "OBU UMUZOKE",
+        "parent_id": "475"
+    },
+    {
+        "id": "42346",
+        "name": "EGBUGWU PRIMARY SCHOOL",
+        "parent_id": "475"
+    },
+    {
+        "id": "42347",
+        "name": "OBU AMETI SQUARE I",
+        "parent_id": "475"
+    },
+    {
+        "id": "42348",
+        "name": "OBU AMETI SQUARE II",
+        "parent_id": "475"
+    },
+    {
+        "id": "42349",
+        "name": "OBU DIYOKE",
+        "parent_id": "475"
+    },
+    {
+        "id": "42350",
+        "name": "AMUWANI UGWUNANI",
+        "parent_id": "475"
+    },
+    {
+        "id": "42351",
+        "name": "UGWUNANI PRIMARY SCHOOL",
+        "parent_id": "475"
+    },
+    {
+        "id": "42352",
+        "name": "OTOBO ENU NKWO LELEGU",
+        "parent_id": "475"
+    },
+    {
+        "id": "42353",
+        "name": "OYE VILLAGE SQUARE LELEGU",
+        "parent_id": "475"
+    },
+    {
+        "id": "42354",
+        "name": "OBU IKENYI ODOBAJA",
+        "parent_id": "475"
+    },
+    {
+        "id": "42355",
+        "name": "OLD PUMP NUA",
+        "parent_id": "475"
+    },
+    {
+        "id": "42356",
+        "name": "OTOBO ETITI OBIE",
+        "parent_id": "476"
+    },
+    {
+        "id": "42357",
+        "name": "OTOBO EZEANI OBIE",
+        "parent_id": "476"
+    },
+    {
+        "id": "42358",
+        "name": "OBU UMUORI OBIE",
+        "parent_id": "476"
+    },
+    {
+        "id": "42359",
+        "name": "UNION PRIMARY SCHOOL, AMOGWU",
+        "parent_id": "476"
+    },
+    {
+        "id": "42360",
+        "name": "OTOBO UWANI ARAM",
+        "parent_id": "476"
+    },
+    {
+        "id": "42361",
+        "name": "OTOBO AMAECHEM I",
+        "parent_id": "476"
+    },
+    {
+        "id": "42362",
+        "name": "OTOBO AMAECHEM II",
+        "parent_id": "476"
+    },
+    {
+        "id": "42363",
+        "name": "UMUOJU HALL",
+        "parent_id": "476"
+    },
+    {
+        "id": "42364",
+        "name": "UMUONYEMELEGE VILLAGE HALL",
+        "parent_id": "476"
+    },
+    {
+        "id": "42365",
+        "name": "UMUGURU VILLAGE HALL",
+        "parent_id": "476"
+    },
+    {
+        "id": "42366",
+        "name": "AMAUWANI ORIE VILLAGE SQUARE",
+        "parent_id": "476"
+    },
+    {
+        "id": "42367",
+        "name": "IGBOWERUKA VILLAGE SQUARE",
+        "parent_id": "476"
+    },
+    {
+        "id": "42416",
+        "name": "DIOGBE TOWN HALL I",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42417",
+        "name": "DIOGBE TOWN HALL II",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42418",
+        "name": "DIOGBE TOWN HALL III",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42419",
+        "name": "CENTRAL SCHOOL, DIOGBE I",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42420",
+        "name": "CENTRAL SCHOOL, DIOGBE II",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42421",
+        "name": "CENTRAL SCHOOL, DIOGBE III",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42422",
+        "name": "AMAGODO HALL",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42423",
+        "name": "ORIENTAL HALL I",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42424",
+        "name": "OHENE VILLAGE HALL",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42425",
+        "name": "COMM. SECONDARY SCHOOL, UMUNKO",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42426",
+        "name": "C.P.S. UMUNKO",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42427",
+        "name": "ORIENTAL HALL II",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42428",
+        "name": "COMMUNITY SECONDARY SCHOOL, UMUNKO",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42429",
+        "name": "HEALTH POST UMUNKO",
+        "parent_id": "1835"
+    },
+    {
+        "id": "42454",
+        "name": "UWANI EZIKE VILLAGE HALL I",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42455",
+        "name": "UWANI EZIKE VILLAGE HALL II",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42456",
+        "name": "UMUEHELETE VILLAGE HALL I",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42457",
+        "name": "UMUEHELETE VILLAGE HALL II",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42458",
+        "name": "UGWUNAGBO VILLAGE HALL I",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42459",
+        "name": "UGWUNAGBO VILLAGE HALL II",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42460",
+        "name": "UGWUNAGBO VILLAGE HALL III",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42461",
+        "name": "UDUEME VILLAGE HALL",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42462",
+        "name": "AFOR MARKET SQUARE",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42463",
+        "name": "CENTRAL SCHOOL, UDUEME I",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42464",
+        "name": "CENTRAL SCHOOL, UDUEME II",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42465",
+        "name": "UMULEE UGWUNAGBO",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42466",
+        "name": "OKUZU ODA",
+        "parent_id": "2134"
+    },
+    {
+        "id": "42368",
+        "name": "AMADULU HALL",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42369",
+        "name": "AMANGWU HALL",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42370",
+        "name": "HILL-TOP SCHOOL, UKOPI",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42371",
+        "name": "UMUEVULIKE HALL",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42372",
+        "name": "AMADILIGWE HALL I",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42373",
+        "name": "AMADILIGWE HALL II",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42374",
+        "name": "AMEWA HALL",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42375",
+        "name": "UFU PRIMARY SCHOOL I",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42376",
+        "name": "UFU PRIMARY SCHOOL II",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42377",
+        "name": "AGU UDELE SQUARE",
+        "parent_id": "2190"
+    },
+    {
+        "id": "42378",
+        "name": "AJUONA HALL/AGURU HALL",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42379",
+        "name": "AMAONUCHA PRIMARY SCHOOL",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42380",
+        "name": "OGBODU HALL",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42381",
+        "name": "COMMUNITY  PRIMARY  SCHOOL  AGU EKWEGBE",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42382",
+        "name": "IBEGAMA HALL",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42383",
+        "name": "ETITI AMAOBU HALL",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42384",
+        "name": "C.P.S. AGUEKWEGBE II",
+        "parent_id": "2191"
+    },
+    {
+        "id": "42430",
+        "name": "AMETI UWANI HALL",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42431",
+        "name": "AMETI UWELU HALL",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42432",
+        "name": "IKOLO ANI HALL",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42433",
+        "name": "IKOLO HALL",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42434",
+        "name": "AMAEDEM HALL I",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42435",
+        "name": "AMAEDEM HALL II",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42436",
+        "name": "OBU OBEKE I",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42437",
+        "name": "OBU UMUEZE OHEBE",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42438",
+        "name": "OBU OMASHI",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42439",
+        "name": "EJUONA PRIMARY SCHOOL OHEBE",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42440",
+        "name": "OBU UMUIYIDA",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42441",
+        "name": "OTOBO OHODO",
+        "parent_id": "3537"
+    },
+    {
+        "id": "42442",
+        "name": "IKOLO MARKET SQUARE",
+        "parent_id": "3537"
+    }
+]

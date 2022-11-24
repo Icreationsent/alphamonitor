@@ -58,6 +58,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::post('pooling-units/process-csv-import', 'PoolingUnitController@processCsvImport')->name('pooling-units.processCsvImport');
     Route::resource('pooling-units', 'PoolingUnitController');
 
+    // Lga
+    Route::delete('lgas/destroy', 'LgaController@massDestroy')->name('lgas.massDestroy');
+    Route::post('lgas/parse-csv-import', 'LgaController@parseCsvImport')->name('lgas.parseCsvImport');
+    Route::post('lgas/process-csv-import', 'LgaController@processCsvImport')->name('lgas.processCsvImport');
+    Route::resource('lgas', 'LgaController');
+
     Route::get('global-search', 'GlobalSearchController@search')->name('globalSearch');
     Route::get('messenger', 'MessengerController@index')->name('messenger.index');
     Route::get('messenger/create', 'MessengerController@createTopic')->name('messenger.createTopic');

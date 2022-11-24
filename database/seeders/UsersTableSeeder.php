@@ -21,6 +21,8 @@ class UsersTableSeeder extends Seeder
             'email' => 'admin@alphamonitor.com',
             'avatar' => 'default.jpg',
             'password' => bcrypt('password'),
+            'approved' => 1,
+            'verified' => 1,
 
         ]);
 
@@ -29,21 +31,27 @@ class UsersTableSeeder extends Seeder
             'name' => 'ANINRI',
             'email' => 'aninri@alphamonitor.com',
             'avatar' => 'default.jpg',
-            'password' => bcrypt('password')
+            'password' => bcrypt('password'),
+            'approved' => 1,
+            'verified' => 1,
         ]);
         // Awgu
         $Awgu = User::create([
             'name' => 'AWGU',
             'email' => 'awgu@alphamonitor.com',
             'avatar' => 'default.jpg',
-            'password' => bcrypt('password')
+            'password' => bcrypt('password'),
+             'approved' => 1,
+            'verified' => 1,
         ]);
         // Enugu East
         $EnuguEast = User::create([
             'name' => 'ENUGU EAST',
             'email' => 'enugueast@alphamonitor.com',
             'avatar' => 'default.jpg',
-            'password' => bcrypt('password')
+            'password' => bcrypt('password'),
+            'approved' => 1,
+            'verified' => 1,
         ]);
         // Enugu North
         $EnuguNorth = User::create([
