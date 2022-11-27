@@ -10,7 +10,11 @@ Route::get('/home', function () {
 });
 
 Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');
-Auth::routes();
+Auth::routes([
+    'register' => false, // Registration Routes...
+    'reset' => true, // Password Reset Routes...
+    'verify' => false, // Email Verification Routes...
+]);
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth', '2fa']], function () {
     Route::get('/', 'HomeController@index')->name('home');

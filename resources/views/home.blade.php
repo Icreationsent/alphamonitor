@@ -37,7 +37,7 @@
                         <div class="{{ $settings3['column_class'] }}">
                             <div class="card text-white bg-primary">
                                 <div class="card-body pb-0">
-                                    <div class="text-value">{{ number_format($settings3['total_number']) }}</div>
+                                    <div class="text-value">{{ number_format($settings3['total_number']-1) }}</div>
                                     <div>{{ $settings3['chart_title'] }}</div>
                                     <br />
                                 </div>
@@ -51,7 +51,7 @@
                             <h3>{!! $chart5->options['chart_title'] !!}</h3>
                             {!! $chart5->renderHtml() !!}
                         </div>
-                        {{-- Widget - latest entries --}}
+                         Widget - latest entries
                         <div class="{{ $settings6['column_class'] }}" style="overflow-x: auto;">
                             <h3>{{ $settings6['chart_title'] }}</h3>
                             <table class="table table-bordered table-striped">
@@ -96,6 +96,8 @@
         </div>
     </div>
 </div>
+
+
 @endsection
 @section('scripts')
 @parent

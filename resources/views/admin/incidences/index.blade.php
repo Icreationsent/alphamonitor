@@ -4,7 +4,7 @@
     <div style="margin-bottom: 10px;" class="row">
         <div class="col-lg-12">
             <a class="btn btn-success" href="{{ route('admin.incidences.create') }}">
-                {{ trans('global.add') }} {{ trans('cruds.incidence.title_singular') }}
+               Report Incidence
             </a>
         </div>
     </div>
@@ -144,7 +144,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

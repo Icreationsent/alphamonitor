@@ -14,9 +14,9 @@ class CreateVotesTable extends Migration
             $table->string('ward');
             $table->string('pooling_unit');
             $table->string('agent');
-            $table->integer('phone');
+            $table->string('phone');
             $table->string('party');
-            $table->string('number_of_votes');
+            $table->integer('number_of_votes');
             $table->timestamps();
             $table->softDeletes();
         });

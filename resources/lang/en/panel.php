@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'alphamonitor',
+    'site_title' => 'AlphaMonitor',
 ];

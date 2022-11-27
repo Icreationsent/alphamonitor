@@ -35,9 +35,8 @@ class StoreVoteRequest extends FormRequest
             ],
             'phone' => [
                 'required',
-                'integer',
-                'min:-2147483648',
-                'max:2147483647',
+                'digits:11',
+
             ],
             'party' => [
                 'string',
