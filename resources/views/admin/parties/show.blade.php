@@ -47,14 +47,14 @@
                             {{ $party->running_mate }}
                         </td>
                     </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.party.fields.party') }}
-                        </th>
-                        <td>
-                            {{ $party->party->party ?? '' }}
-                        </td>
-                    </tr>
+{{--                    <tr>--}}
+{{--                        <th>--}}
+{{--                            {{ trans('cruds.party.fields.party') }}--}}
+{{--                        </th>--}}
+{{--                        <td>--}}
+{{--                            {{ $party->party->party ?? '' }}--}}
+{{--                        </td>--}}
+{{--                    </tr>--}}
                 </tbody>
             </table>
             <div class="form-group">

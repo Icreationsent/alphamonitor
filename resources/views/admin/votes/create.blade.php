@@ -11,27 +11,19 @@
             @csrf
             <div class="form-group">
                 <label class="required" for="lga">{{ trans('cruds.vote.fields.lga') }}</label>
+                @php
+                    $name = App\Models\Lga::all();
+                @endphp
+                @if(Auth::user()->id == 1 )
                 <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
                      <option class="form-control">Select Local Government Area</option>
                 </select>
-{{--                    @php--}}
-{{--                        $name = App\Models\Lga::all();--}}
-{{--                    @endphp--}}
-{{--                @if(Auth::user()->id == 1 )--}}
-{{--                    <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">--}}
-{{--                        <option class="form-control">Select Local Government Area</option>--}}
-{{--                    @foreach($name as $value)--}}
 
-{{--                            <option class="form-control">{{ $value->name }}</option>--}}
-
-{{--                    @endforeach--}}
-{{--                    </select>--}}
-{{--                @elseif( Auth::user()->id !== 1)--}}
-{{--                    <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">--}}
-{{--                        <option class="form-control">{{ Auth::user()->name }}</option>--}}
-{{--                    </select>--}}
-{{--                @endif--}}
-{{--                </select>--}}
+                @elseif( Auth::user()->id !== 1)
+                    <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
+                        <option class="form-control disabled">{{ Auth::user()->name }}</option>
+                    </select>
+                @endif
                 @if($errors->has('lga'))
                     <div class="invalid-feedback">
                         {{ $errors->first('lga') }}

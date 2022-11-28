@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
             RoleUserTableSeeder::class,
             RoleUserTableSeeder::class,
             LgaTableSeeder::class,
+            PartiesTableSeeder::class,
         ]);
     }
 }

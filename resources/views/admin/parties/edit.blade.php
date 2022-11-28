@@ -40,20 +40,20 @@
                 @endif
                 <span class="help-block">{{ trans('cruds.party.fields.running_mate_helper') }}</span>
             </div>
-            <div class="form-group">
-                <label for="party_id">{{ trans('cruds.party.fields.party') }}</label>
-                <select class="form-control select2 {{ $errors->has('party') ? 'is-invalid' : '' }}" name="party_id" id="party_id">
-                    @foreach($parties as $id => $entry)
-                        <option value="{{ $id }}" {{ (old('party_id') ? old('party_id') : $party->party->id ?? '') == $id ? 'selected' : '' }}>{{ $entry }}</option>
-                    @endforeach
-                </select>
-                @if($errors->has('party'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('party') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.party.fields.party_helper') }}</span>
-            </div>
+{{--            <div class="form-group">--}}
+{{--                <label for="party_id">{{ trans('cruds.party.fields.party') }}</label>--}}
+{{--                <select class="form-control select2 {{ $errors->has('party') ? 'is-invalid' : '' }}" name="party_id" id="party_id">--}}
+{{--                    @foreach($parties as $id => $entry)--}}
+{{--                        <option value="{{ $id }}" {{ (old('party_id') ? old('party_id') : $party->party->id ?? '') == $id ? 'selected' : '' }}>{{ $entry }}</option>--}}
+{{--                    @endforeach--}}
+{{--                </select>--}}
+{{--                @if($errors->has('party'))--}}
+{{--                    <div class="invalid-feedback">--}}
+{{--                        {{ $errors->first('party') }}--}}
+{{--                    </div>--}}
+{{--                @endif--}}
+{{--                <span class="help-block">{{ trans('cruds.party.fields.party_helper') }}</span>--}}
+{{--            </div>--}}
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">
                     {{ trans('global.save') }}

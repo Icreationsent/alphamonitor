@@ -38,9 +38,9 @@
                         <th>
                             {{ trans('cruds.party.fields.running_mate') }}
                         </th>
-                        <th>
-                            {{ trans('cruds.party.fields.party') }}
-                        </th>
+{{--                        <th>--}}
+{{--                            {{ trans('cruds.party.fields.party') }}--}}
+{{--                        </th>--}}
                         <th>
                             {{ trans('cruds.vote.fields.number_of_votes') }}
                         </th>
@@ -67,9 +67,9 @@
                             <td>
                                 {{ $party->running_mate ?? '' }}
                             </td>
-                            <td>
-                                {{ $party->party->party ?? '' }}
-                            </td>
+{{--                            <td>--}}
+{{--                                {{ $party->party->party ?? '' }}--}}
+{{--                            </td>--}}
                             <td>
                                 {{ $party->party->number_of_votes ?? '' }}
                             </td>
