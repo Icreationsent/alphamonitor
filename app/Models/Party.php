@@ -23,7 +23,7 @@ class Party extends Model
     protected $fillable = [
         'name',
         'aspirant',
-        'runing_mate',
+        'running_mate',
         'party_id',
         'created_at',
         'updated_at',

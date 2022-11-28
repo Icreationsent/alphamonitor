@@ -31,14 +31,14 @@
                 <span class="help-block">{{ trans('cruds.party.fields.aspirant_helper') }}</span>
             </div>
             <div class="form-group">
-                <label class="required" for="runing_mate">{{ trans('cruds.party.fields.runing_mate') }}</label>
-                <input class="form-control {{ $errors->has('runing_mate') ? 'is-invalid' : '' }}" type="text" name="runing_mate" id="runing_mate" value="{{ old('runing_mate', $party->runing_mate) }}" required>
-                @if($errors->has('runing_mate'))
+                <label class="required" for="running_mate">{{ trans('cruds.party.fields.running_mate') }}</label>
+                <input class="form-control {{ $errors->has('running_mate') ? 'is-invalid' : '' }}" type="text" name="running_mate" id="running_mate" value="{{ old('running_mate', $party->running_mate) }}" required>
+                @if($errors->has('running_mate'))
                     <div class="invalid-feedback">
-                        {{ $errors->first('runing_mate') }}
+                        {{ $errors->first('running_mate') }}
                     </div>
                 @endif
-                <span class="help-block">{{ trans('cruds.party.fields.runing_mate_helper') }}</span>
+                <span class="help-block">{{ trans('cruds.party.fields.running_mate_helper') }}</span>
             </div>
             <div class="form-group">
                 <label for="party_id">{{ trans('cruds.party.fields.party') }}</label>

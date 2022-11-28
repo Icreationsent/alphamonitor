@@ -26,7 +26,7 @@ class UpdatePartyRequest extends FormRequest
                 'string',
                 'required',
             ],
-            'runing_mate' => [
+            'running_mate' => [
                 'string',
                 'required',
             ],

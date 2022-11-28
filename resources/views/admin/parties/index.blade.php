@@ -36,7 +36,7 @@
                             {{ trans('cruds.party.fields.aspirant') }}
                         </th>
                         <th>
-                            {{ trans('cruds.party.fields.runing_mate') }}
+                            {{ trans('cruds.party.fields.running_mate') }}
                         </th>
                         <th>
                             {{ trans('cruds.party.fields.party') }}
@@ -65,7 +65,7 @@
                                 {{ $party->aspirant ?? '' }}
                             </td>
                             <td>
-                                {{ $party->runing_mate ?? '' }}
+                                {{ $party->running_mate ?? '' }}
                             </td>
                             <td>
                                 {{ $party->party->party ?? '' }}
@@ -152,7 +152,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 })
 
 </script>

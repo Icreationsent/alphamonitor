@@ -26,7 +26,7 @@ class StorePartyRequest extends FormRequest
                 'string',
                 'required',
             ],
-            'runing_mate' => [
+            'running_mate' => [
                 'string',
                 'required',
             ],

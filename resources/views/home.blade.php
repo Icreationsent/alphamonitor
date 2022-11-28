@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="{{ $settings1['column_class'] }}">
                             <div class="card text-white bg-primary">
-                                <div class="card-body pb-0">
+                                <div class="card-body pb-30">
                                     <div class="text-value">{{ number_format($settings1['total_number']) }}</div>
                                     <div>{{ $settings1['chart_title'] }}</div>
                                     <br />
@@ -26,8 +26,8 @@
                             </div>
                         </div>
                         <div class="{{ $settings2['column_class'] }}">
-                            <div class="card text-white bg-primary">
-                                <div class="card-body pb-0">
+                            <div class="card text-white bg-success">
+                                <div class="card-body pb-30">
                                     <div class="text-value">{{ number_format($settings2['total_number']) }}</div>
                                     <div>{{ $settings2['chart_title'] }}</div>
                                     <br />
@@ -35,25 +35,63 @@
                             </div>
                         </div>
                         <div class="{{ $settings3['column_class'] }}">
-                            <div class="card text-white bg-primary">
-                                <div class="card-body pb-0">
+                            <div class="card text-white bg-warning">
+                                <div class="card-body pb-30">
                                     <div class="text-value">{{ number_format($settings3['total_number']-1) }}</div>
                                     <div>{{ $settings3['chart_title'] }}</div>
                                     <br />
                                 </div>
                             </div>
                         </div>
-                        <div class="{{ $chart4->options['column_class'] }}">
-                            <h3>{!! $chart4->options['chart_title'] !!}</h3>
-                            {!! $chart4->renderHtml() !!}
+                        <div class="{{ $settings3['column_class'] }}">
+                            <div class="card text-white bg-danger">
+                                <div class="card-body pb-30">
+                                    <div class="text-value">0</div>
+                                    <div>Total Voting Others</div>
+                                    <br />
+                                </div>
+                            </div>
                         </div>
-                        <div class="{{ $chart5->options['column_class'] }}">
-                            <h3>{!! $chart5->options['chart_title'] !!}</h3>
-                            {!! $chart5->renderHtml() !!}
-                        </div>
-                         Widget - latest entries
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="card">
+        <div class="card-header">
+            Voting Charts
+        </div>
+        <div class="class card-body">
+            <div class="row">
+                <div class="{{ $chart4->options['column_class'] }}">
+                    <h3>{!! $chart4->options['chart_title'] !!}</h3>
+                    {!! $chart4->renderHtml() !!}
+                </div>
+                <div class="{{ $chart5->options['column_class'] }}">
+                    <h3>{!! $chart5->options['chart_title'] !!}</h3>
+                    {!! $chart5->renderHtml() !!}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    Incidences Reports
+                </div>
+
+                <div class="card-body">
+
+
                         <div class="{{ $settings6['column_class'] }}" style="overflow-x: auto;">
-                            <h3>{{ $settings6['chart_title'] }}</h3>
                             <table class="table table-bordered table-striped">
                                 <thead>
                                     <tr>

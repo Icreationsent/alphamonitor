@@ -41,10 +41,10 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.party.fields.runing_mate') }}
+                            {{ trans('cruds.party.fields.running_mate') }}
                         </th>
                         <td>
-                            {{ $party->runing_mate }}
+                            {{ $party->running_mate }}
                         </td>
                     </tr>
                     <tr>

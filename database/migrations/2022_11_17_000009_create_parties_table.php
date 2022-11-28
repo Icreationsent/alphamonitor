@@ -12,7 +12,7 @@ class CreatePartiesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name')->unique();
             $table->string('aspirant');
-            $table->string('runing_mate');
+            $table->string('running_mate');
             $table->timestamps();
             $table->softDeletes();
         });
