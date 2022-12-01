@@ -91,7 +91,9 @@
                                 {{ $vote->id ?? '' }}
                             </td>
                             <td>
-                                {{ $vote->lga ?? '' }}
+
+                              {{ DB::table('lgas')->where('id', $vote->lga )->get('name') }}
+
                             </td>
                             <td>
                                 {{ $vote->ward ?? '' }}
@@ -106,7 +108,7 @@
                                 {{ $vote->phone ?? '' }}
                             </td>
                             <td>
-                                {{ $vote->party ?? '' }}
+                                {{ $vote->party?? '' }}
                             </td>
                             <td>
                                 {{ $vote->number_of_votes ?? '' }}
@@ -190,7 +192,7 @@
       $($.fn.dataTable.tables(true)).DataTable()
           .columns.adjust();
   });
-  
+
 let visibleColumnsIndexes = null;
 $('.datatable thead').on('input', '.search', function () {
       let strict = $(this).attr('strict') || false
