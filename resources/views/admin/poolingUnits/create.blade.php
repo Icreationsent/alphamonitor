@@ -11,7 +11,10 @@
             @csrf
             <div class="form-group">
                 <label for="lga">{{ trans('cruds.poolingUnit.fields.lga') }}</label>
-                <input class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga" value="{{ old('lga', '') }}">
+                <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga" value="{{ old('lga', '') }}">
+
+                </select>
+
                 @if($errors->has('lga'))
                     <div class="invalid-feedback">
                         {{ $errors->first('lga') }}
@@ -21,7 +24,8 @@
             </div>
             <div class="form-group">
                 <label for="ward">{{ trans('cruds.poolingUnit.fields.ward') }}</label>
-                <input class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}">
+                <Select class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}">
+                </Select>
                 @if($errors->has('ward'))
                     <div class="invalid-feedback">
                         {{ $errors->first('ward') }}

@@ -92,7 +92,8 @@
                             </td>
                             <td>
 
-                              {{ DB::table('lgas')->where('id', $vote->lga )->get('name') }}
+{{--                              {{ DB::table('lgas')->where('id', $vote->lga )->get('name') }}--}}
+                              {{ DB::table('lgas')->where('id', $vote->lga )->first()->name }}
 
                             </td>
                             <td>
