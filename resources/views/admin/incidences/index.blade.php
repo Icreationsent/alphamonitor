@@ -49,7 +49,8 @@
                                 {{ $incidence->id ?? '' }}
                             </td>
                             <td>
-                                {{ $incidence->subject ?? '' }}
+{{--                                {{ $incidence->subject ?? '' }}--}}
+                                {!!html_entity_decode($incidence->subject  ?? '' )!!}
                             </td>
                             <td>
                                 @foreach($incidence->images as $key => $media)
