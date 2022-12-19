@@ -1,5 +1,112 @@
 @extends('layouts.admin')
+@section('styles')
+
+@endsection
 @section('content')
+{{--    @php--}}
+{{--        header("refresh: 10");--}}
+{{--    @endphp--}}
+    <style>
+        .media {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+        }
+
+        .media-body {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+        }
+
+        .static-top-widget:hover .icon-bg {
+            -webkit-transform: rotate(-5deg) scale(1.1);
+            transform: rotate(-5deg) scale(1.1);
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        .static-top-widget div.align-self-center svg {
+            width: 30px;
+            height: 30px;
+        }
+
+        .static-top-widget .media-body {
+            -ms-flex-item-align: center !important;
+            align-self: center !important;
+            padding-left: 30px;
+        }
+        .static-top-widget .media-body .icon-bg {
+            position: absolute;
+            right: -14px;
+            top: 6px;
+            opacity: 0.2;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            width: 100px;
+            height: 100px;
+        }
+
+        .static-top-widget span {
+            font-weight: 500; }
+
+        .static-top-widget h4 {
+            font-weight: 600; }
+
+        .bg-danger .media.static-top-widget .align-self-center {
+            background-color: #d22d3d; }
+
+        .widget-joins:before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 1px;
+            background-color: #efefef;
+            left: calc(50% - 1px); }
+
+        .widget-joins:after {
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background-color: #efefef;
+            left: 0;
+            top: 50%; }
+
+        .widget-joins .media {
+            padding: 30px;
+            text-align: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+        .widget-joins .media span {
+            font-weight: 500; }
+        .widget-joins .media span.widget-t {
+            color: #999; }
+        .widget-joins .media h5 {
+            font-weight: 600;
+            font-size: 18px; }
+        .widget-joins .media .details {
+            border-left: 1px solid #e6edef;
+            padding: 1px 0; }
+        .widget-joins .media .media-body {
+            text-align: left; }
+        .widget-joins .media .media-body > span {
+            color: #999; }
+        .widget-joins .media .media-body svg {
+            width: 40px;
+            height: 40px; }
+        .widget-joins .media .media-body h5 span {
+            font-weight: 600; }
+        .widget-joins .media .media-body h6 {
+            font-weight: 600; }
+        .widget-joins .media .media-body h6 span {
+            color: #000; }
+
+    </style>
 <div class="content">
     <div class="row">
         <div class="col-lg-12">
@@ -7,55 +114,140 @@
                 <div class="card-header">
                     Dashboard
                 </div>
+                <div class="container-fluid">
+                    <div class="card-body">
+                        @if(session('status'))
+                            <div class="alert alert-success" role="alert">
+                                {{ session('status') }}
+                            </div>
+                        @endif
 
-                <div class="card-body">
-                    @if(session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                        <div class="row">
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="bg-dark b-r-4 card-body">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0">Total Votes</span>
+                                                <h4 class="mb-0 counter">{{ DB::table('votes')->sum('number_of_votes') }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database icon-bg"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="row">
-                        <div class="{{ $settings1['column_class'] }}">
-                            <div class="card text-white bg-primary">
-                                <div class="card-body pb-30">
-                                    <div class="text-value">{{ number_format($settings1['total_number']) }}</div>
-                                    <div>{{ $settings1['chart_title'] }}</div>
-                                    <br />
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="bg-dark b-r-4 card-body">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0">Total Incidences </span>
+                                                <h4 class="mb-0 counter">{{ DB::table('incidences')->count() }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle icon-bg"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="{{ $settings2['column_class'] }}">
-                            <div class="card text-white bg-success">
-                                <div class="card-body pb-30">
-                                    <div class="text-value">{{ number_format($settings2['total_number']) }}</div>
-                                    <div>{{ $settings2['chart_title'] }}</div>
-                                    <br />
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="bg-dark b-r-4 card-body">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0">Voting for Others</span>
+                                                <h4 class="mb-0 counter">{{ DB::table('votes')->where('party', "!=", 'PDP')->sum('number_of_votes') }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus icon-bg"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="{{ $settings3['column_class'] }}">
-                            <div class="card text-white bg-warning">
-                                <div class="card-body pb-30">
-                                    <div class="text-value">{{ number_format($settings3['total_number']-1) }}</div>
-                                    <div>{{ $settings3['chart_title'] }}</div>
-                                    <br />
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="bg-dark b-r-4 card-body">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0">Total Poll Submissions</span>
+                                                <h4 class="mb-0"> {{ DB::table('votes')->count() }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus icon-bg"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="{{ $settings3['column_class'] }}">
-                            <div class="card text-white bg-danger">
-                                <div class="card-body pb-30">
-                                    <div class="text-value">0</div>
-                                    <div>Total Voting Others</div>
-                                    <br />
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="b-r-4 card-body text-white" style="background-color: #4065c5 !important">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0 text-white">Voting for Peter (PDP) </span>
+                                                <h4 class="mb-0 text-white">{{ DB::table('votes')->where('party', 'PDP')->sum('number_of_votes') }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag icon-bg"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="b-r-4 card-body text-white" style="background-color: #16942b !important">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0 text-white">Voting for Frank (APGA) </span>
+                                                <h4 class="mb-0 text-white">{{ DB::table('votes')->where('party', 'APGA')->sum('number_of_votes') }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag icon-bg"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="b-r-4 card-body text-white" style="background-color: #a06e37 !important">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0 text-white" >Voting for Chijioke (LP) </span>
+                                                <h4 class="mb-0 text-white">{{ DB::table('votes')->where('party', 'Labour Party')->sum('number_of_votes') }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag icon-bg"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-3 col-lg-6">
+                                <div class="card o-hidden border-0">
+                                    <div class="b-r-4 card-body text-white" style="background-color: #831b1e !important;">
+                                        <div class="media static-top-widget">
+                                            <div class="align-self-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
+                                            <div class="media-body">
+                                                <span class="m-0 text-white">Voting for Uche (APC) </span>
+                                                <h4 class="mb-0 text-white">{{ DB::table('votes')->where('party', 'APC')->sum('number_of_votes') }}</h4>
+                                                <a href="#"> <small class="text-white">View more</small></a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag icon-bg"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
 
-                </div>
             </div>
         </div>
     </div>
@@ -68,21 +260,21 @@
         </div>
         <div class="class card-body">
             <div class="row">
-                <div class="{{ $chart4->options['column_class'] }}">
-                    <h3>{!! $chart4->options['chart_title'] !!}</h3>
-                    {!! $chart4->renderHtml() !!}
-                </div>
-                <div class="{{ $chart5->options['column_class'] }}">
-                    <h3>{!! $chart5->options['chart_title'] !!}</h3>
-                    {!! $chart5->renderHtml() !!}
-                </div>
+{{--                <div class="{{ $chart4->options['column_class'] }}">--}}
+{{--                    <h3>{!! $chart4->options['chart_title'] !!}</h3>--}}
+{{--                    {!! $chart4->renderHtml() !!}--}}
+{{--                </div>--}}
+{{--                <div class="{{ $chart5->options['column_class'] }}">--}}
+{{--                    <h3>{!! $chart5->options['chart_title'] !!}</h3>--}}
+{{--                    {!! $chart5->renderHtml() !!}--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>
 </div>
 <div class="content">
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-6">
             <div class="card">
                 <div class="card-header">
                     Incidences Reports
@@ -91,42 +283,42 @@
                 <div class="card-body">
 
 
-                        <div class="{{ $settings6['column_class'] }}" style="overflow-x: auto;">
-                            <table class="table table-bordered table-striped">
-                                <thead>
-                                    <tr>
-                                        @foreach($settings6['fields'] as $key => $value)
-                                            <th>
-                                                {{ trans(sprintf('cruds.%s.fields.%s', $settings6['translation_key'] ?? 'pleaseUpdateWidget', $key)) }}
-                                            </th>
-                                        @endforeach
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @forelse($settings6['data'] as $entry)
-                                        <tr>
-                                            @foreach($settings6['fields'] as $key => $value)
-                                                <td>
-                                                    @if($value === '')
-                                                        {{ $entry->{$key} }}
-                                                    @elseif(is_iterable($entry->{$key}))
-                                                        @foreach($entry->{$key} as $subEentry)
-                                                            <span class="label label-info">{{ $subEentry->{$value} }}</span>
-                                                        @endforeach
-                                                    @else
-                                                        {{ data_get($entry, $key . '.' . $value) }}
-                                                    @endif
-                                                </td>
-                                            @endforeach
-                                        </tr>
-                                        @empty
-                                        <tr>
-                                            <td colspan="{{ count($settings6['fields']) }}">{{ __('No entries found') }}</td>
-                                        </tr>
-                                    @endforelse
-                                </tbody>
-                            </table>
-                        </div>
+{{--                        <div class="{{ $settings6['column_class'] }}" style="overflow-x: auto;">--}}
+{{--                            <table class="table table-bordered table-striped">--}}
+{{--                                <thead>--}}
+{{--                                    <tr>--}}
+{{--                                        @foreach($settings6['fields'] as $key => $value)--}}
+{{--                                            <th>--}}
+{{--                                                {{ trans(sprintf('cruds.%s.fields.%s', $settings6['translation_key'] ?? 'pleaseUpdateWidget', $key)) }}--}}
+{{--                                            </th>--}}
+{{--                                        @endforeach--}}
+{{--                                    </tr>--}}
+{{--                                </thead>--}}
+{{--                                <tbody>--}}
+{{--                                    @forelse($settings6['data'] as $entry)--}}
+{{--                                        <tr>--}}
+{{--                                            @foreach($settings6['fields'] as $key => $value)--}}
+{{--                                                <td>--}}
+{{--                                                    @if($value === '')--}}
+{{--                                                        {{ $entry->{$key} }}--}}
+{{--                                                    @elseif(is_iterable($entry->{$key}))--}}
+{{--                                                        @foreach($entry->{$key} as $subEentry)--}}
+{{--                                                            <span class="label label-info">{{ $subEentry->{$value} }}</span>--}}
+{{--                                                        @endforeach--}}
+{{--                                                    @else--}}
+{{--                                                        {{ data_get($entry, $key . '.' . $value) }}--}}
+{{--                                                    @endif--}}
+{{--                                                </td>--}}
+{{--                                            @endforeach--}}
+{{--                                        </tr>--}}
+{{--                                        @empty--}}
+{{--                                        <tr>--}}
+{{--                                            <td colspan="{{ count($settings6['fields']) }}">{{ __('No entries found') }}</td>--}}
+{{--                                        </tr>--}}
+{{--                                    @endforelse--}}
+{{--                                </tbody>--}}
+{{--                            </table>--}}
+{{--                        </div>--}}
 
                     </div>
                 </div>
@@ -135,7 +327,9 @@
     </div>
 </div>
 
+<div>
 
+</div>
 @endsection
 @section('scripts')
 @parent

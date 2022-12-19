@@ -130,3 +130,102 @@ table.dataTable thead .sorting_desc {
 .custom-select.form-control-sm {
     padding: 0.25rem 1.5rem;
 }
+
+.media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.static-top-widget:hover .icon-bg {
+    -webkit-transform: rotate(-5deg) scale(1.1);
+    transform: rotate(-5deg) scale(1.1);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.static-top-widget div.align-self-center svg {
+    width: 30px;
+    height: 30px;
+}
+
+.static-top-widget .media-body {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    padding-left: 30px;
+}
+.static-top-widget .media-body .icon-bg {
+    position: absolute;
+    right: -14px;
+    top: 6px;
+    opacity: 0.2;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 100px;
+}
+
+.static-top-widget span {
+    font-weight: 500; }
+
+.static-top-widget h4 {
+    font-weight: 600; }
+
+.bg-danger .media.static-top-widget .align-self-center {
+    background-color: #d22d3d; }
+
+.widget-joins:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #efefef;
+    left: calc(50% - 1px); }
+
+.widget-joins:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #efefef;
+    left: 0;
+    top: 50%; }
+
+.widget-joins .media {
+    padding: 30px;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+.widget-joins .media span {
+    font-weight: 500; }
+.widget-joins .media span.widget-t {
+    color: #999; }
+.widget-joins .media h5 {
+    font-weight: 600;
+    font-size: 18px; }
+.widget-joins .media .details {
+    border-left: 1px solid #e6edef;
+    padding: 1px 0; }
+.widget-joins .media .media-body {
+    text-align: left; }
+.widget-joins .media .media-body > span {
+    color: #999; }
+.widget-joins .media .media-body svg {
+    width: 40px;
+    height: 40px; }
+.widget-joins .media .media-body h5 span {
+    font-weight: 600; }
+.widget-joins .media .media-body h6 {
+    font-weight: 600; }
+.widget-joins .media .media-body h6 span {
+    color: #000; }
