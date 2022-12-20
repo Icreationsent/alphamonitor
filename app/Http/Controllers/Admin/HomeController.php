@@ -123,7 +123,7 @@ class HomeController
             'model'              => 'App\Models\Vote',
             'group_by_field'     => 'number_of_votes',
             'aggregate_function' => 'count',
-            'filter_field'       => 'created_at',
+            'filter_field'       => 'party',
             'filter_period'      => 'year',
             'column_class'       => 'col-md-6',
             'entries_number'     => '5',
@@ -148,7 +148,7 @@ class HomeController
         $chart5 = new LaravelChart($settings5);
 
         $settings6 = [
-            'chart_title'           => 'Lastest Incidenes',
+            'chart_title'           => 'Latest Incidents',
             'chart_type'            => 'latest_entries',
             'report_type'           => 'group_by_date',
             'model'                 => 'App\Models\Incidence',
@@ -157,7 +157,7 @@ class HomeController
             'aggregate_function'    => 'count',
             'filter_field'          => 'created_at',
             'group_by_field_format' => 'd/m/Y H:i:s',
-            'column_class'          => 'col-md-12',
+            'column_class'          => 'col-md-6',
             'entries_number'        => '10',
             'fields'                => [
                 'subject'      => '',
