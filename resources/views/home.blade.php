@@ -3,9 +3,9 @@
 
 @endsection
 @section('content')
-    @php
-        header("refresh: 10");
-    @endphp
+{{--    @php--}}
+{{--        header("refresh: 10");--}}
+{{--    @endphp--}}
     <style>
         .media {
             display: -webkit-box;
@@ -423,18 +423,13 @@
         <div class="content">
             <div class="card">
                 <div class="card-header">
-                    Voting Charts
+                    Voting Charts by Local Governments
                 </div>
                 <div class="class card-body">
                     <div class="row row-cols-1 row-cols-md-2">
-                        <div class="col">
-                            <h3>{!! $chart4->options['chart_title'] !!}</h3>
-                            {!! $chart4->renderHtml() !!}
-                        </div>
-                        <div class="col-md-6">
-                            <h3>{!! $chart5->options['chart_title'] !!}</h3>
-                            {!! $chart5->renderHtml() !!}
-                        </div>
+                            <div class="col">
+
+                            </div>
                     </div>
                 </div>
             </div>
@@ -444,16 +439,16 @@
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col">
                 <div class="card mb-4">
-                    <div class="card-header"><strong>Chart</strong><span class="small m-sm-2">Line</span></div>
+                    <div class="card-header"><strong>Chart</strong><span class="small m-sm-2">Donut</span></div>
                     <div class="card-body">
                         <div class="example">
 
                             <div class="tab-content rounded-bottom">
                                 <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-170">
                                     <div class="c-chart-wrapper">
-                                        <canvas id="canvas-1"
-                                                style="display: block; box-sizing: border-box; height: 286px; width: 572px;"
-                                                width="572" height="286"></canvas>
+
+                                        <div id="piechart" style="width: auto; height: 500px;">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -470,9 +465,11 @@
                             <div class="tab-content rounded-bottom">
                                 <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-428">
                                     <div class="c-chart-wrapper">
-                                        <canvas id="canvas-2"
-                                                style="display: block; box-sizing: border-box; height: 286px; width: 572px;"
-                                                width="572" height="286"></canvas>
+{{--                                        <canvas id="canvas-2"--}}
+{{--                                                style="display: block; box-sizing: border-box; height: 286px; width: 572px;"--}}
+{{--                                                width="572" height="286"></canvas>--}}
+                                        <div id="columnchart_values" style="width: auto; height: auto;">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -494,42 +491,49 @@
                         <div class="card-body">
 
 
-                            <div class="{{ $settings6['column_class'] }}" style="overflow-x: auto;">
+                            <div class="" style="overflow-x: auto;">
                                 <table class="table table-bordered table-striped">
                                     <thead>
                                     <tr>
-                                        @foreach($settings6['fields'] as $key => $value)
+
+                                        @php
+                                        $incidences = \App\Models\Incidence::all()->take(6);
+                                        @endphp
+
+
                                             <th>
-                                                {{ trans(sprintf('cruds.%s.fields.%s', $settings6['translation_key'] ?? 'pleaseUpdateWidget', $key)) }}
+                                                Subject
                                             </th>
-                                        @endforeach
+                                            <th>
+                                                Observations
+                                            </th>
+                                            <th>
+                                                Local Government
+                                            </th>
+                                            <th>
+                                                Ward
+                                            </th>
+
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    @forelse($settings6['data'] as $entry)
+                                    @forelse($incidences as $incident )
                                         <tr>
-                                            @foreach($settings6['fields'] as $key => $value)
                                                 <td>
-                                                    @if($value === '')
-                                                        {{ $entry->{$key} }}
-                                                    @elseif(is_iterable($entry->{$key}))
-                                                        @foreach($entry->{$key} as $subEentry)
-                                                            <span
-                                                                class="label label-info">{!!html_entity_decode( 'Hello123'. $subEentry->{$value}  )!!}  </span>
-                                                        @endforeach
-                                                    @else
-                                                        {!!html_entity_decode( data_get($entry, $key . '.' . $value) )!!}
-                                                    @endif
+                                                    {!! html_entity_decode($incident->subject) !!}
                                                 </td>
-                                            @endforeach
+                                                <td>
+                                                    {!! html_entity_decode($incident->observations) !!}
+                                                </td>
                                         </tr>
-                                    @empty
+                                   @empty
                                         <tr>
-                                            <td colspan="{{ count($settings6['fields']) }}">{{ __('No entries found') }}
+                                            <td colspan="">{{ __('No entries found') }}
                                                 Hi
                                             </td>
                                         </tr>
-                                    @endforelse
+                                   @endforelse
+
                                     </tbody>
                                 </table>
                             </div>
@@ -548,4 +552,62 @@
     @parent
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>{!! $chart4->renderJs() !!}{!! $chart5->renderJs() !!}
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+                ['PARTY', 'Voting'],
+                ['PDP', {{ Db::table('votes')->where('party', 'PDP')->sum('number_of_votes') }}],
+                ['APGA', {{ Db::table('votes')->where('party', 'APGA')->sum('number_of_votes') }}],
+                ['LP',  {{ Db::table('votes')->where('party', 'Labour Party')->sum('number_of_votes') }}],
+                ['APC', {{ Db::table('votes')->where('party', 'APC')->sum('number_of_votes') }}],
+
+            ]);
+
+            var options = {
+                title: 'Voting summary in percentages'
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+    <script type="text/javascript">
+        google.charts.load("current", {packages:['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+
+                ["PARTY", "Voting", { role: "style" }],
+                ["PDP", {{ Db::table('votes')->where('party', 'PDP')->sum('number_of_votes') }}, "blue" ],
+                ["APGA", {{ Db::table('votes')->where('party', 'APGA')->sum('number_of_votes') }}, "green"],
+                ["LP",  {{ Db::table('votes')->where('party', 'Labour Party')->sum('number_of_votes') }}, "gold"],
+                ["APC", {{ Db::table('votes')->where('party', 'APC')->sum('number_of_votes') }}, "orange"],
+
+            ]);
+
+            var view = new google.visualization.DataView(data);
+            view.setColumns([0, 1,
+                { calc: "stringify",
+                    sourceColumn: 1,
+                    type: "string",
+                    role: "annotation" },
+                2]);
+
+            var options = {
+                title: "Total number of counted Votes by party",
+                width: 800,
+                height: 500,
+                bar: {groupWidth: "95%"},
+                legend: { position: "none" },
+            };
+            var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+            chart.draw(view, options);
+        }
+    </script>
 @endsection
