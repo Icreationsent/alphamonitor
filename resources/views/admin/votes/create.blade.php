@@ -9,53 +9,60 @@
     <div class="card-body">
         <form method="POST" action="{{ route("admin.votes.store") }}" enctype="multipart/form-data">
             @csrf
-            <div class="form-group">
-                <label class="required" for="lga">{{ trans('cruds.vote.fields.lga') }}</label>
-                @php
-                    $name = App\Models\Lga::all();
-                @endphp
-                @if(Auth::user()->id == 1 )
-                <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
-                     <option class="form-control">Select Local Government Area</option>
-                </select>
+            <div class="class row">
 
-                @elseif( Auth::user()->id !== 1)
-                    <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
-                        <option class="form-control disabled">{{ Auth::user()->name }}</option>
-                    </select>
-                @endif
-                @if($errors->has('lga'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('lga') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.vote.fields.lga_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label class="required" for="ward">{{ trans('cruds.vote.fields.ward') }}</label>
-                <select class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}" required>
 
-                    <option>Select Local ward</option>
-                </select>
-                @if($errors->has('ward'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('ward') }}
+                    <div class="form-group col-md-4">
+                        <label class="required" for="lga">{{ trans('cruds.vote.fields.lga') }}</label>
+                        @php
+                            $name = App\Models\Lga::all();
+                        @endphp
+                        @if(Auth::user()->id == 1 )
+                        <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
+                             <option class="form-control">Select Local Government Area</option>
+                        </select>
+
+                        @elseif( Auth::user()->id !== 1)
+                            <select class="form-control {{ $errors->has('lga') ? 'is-invalid' : '' }}" type="text" name="lga" id="lga">
+                                <option class="form-control disabled">{{ Auth::user()->name }}</option>
+                            </select>
+                        @endif
+                        @if($errors->has('lga'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('lga') }}
+                            </div>
+                        @endif
+                        <span class="help-block">{{ trans('cruds.vote.fields.lga_helper') }}</span>
                     </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.vote.fields.ward_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label class="required" for="pooling_unit">{{ trans('cruds.vote.fields.pooling_unit') }}</label>
-                <select class="form-control {{ $errors->has('pooling_unit') ? 'is-invalid' : '' }}" type="text" name="pooling_unit" id="pooling_unit" value="{{ old('pooling_unit', '') }}" required>
-                    <option>Select Polling Unit</option>
-                </select>
-                @if($errors->has('pooling_unit'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('pooling_unit') }}
+                    <div class="form-group col-md-4">
+                        <label class="required" for="ward">{{ trans('cruds.vote.fields.ward') }}</label>
+                        <select class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}" required>
+
+                            <option>Select Local ward</option>
+                        </select>
+                        @if($errors->has('ward'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('ward') }}
+                            </div>
+                        @endif
+                        <span class="help-block">{{ trans('cruds.vote.fields.ward_helper') }}</span>
                     </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.vote.fields.pooling_unit_helper') }}</span>
+                    <div class="form-group col-md-4">
+                        <label class="required" for="pooling_unit">{{ trans('cruds.vote.fields.pooling_unit') }}</label>
+                        <select class="form-control {{ $errors->has('pooling_unit') ? 'is-invalid' : '' }}" type="text" name="pooling_unit" id="pooling_unit" value="{{ old('pooling_unit', '') }}" required>
+                            <option>Select Polling Unit</option>
+                        </select>
+                        @if($errors->has('pooling_unit'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('pooling_unit') }}
+                            </div>
+                        @endif
+                        <span class="help-block">{{ trans('cruds.vote.fields.pooling_unit_helper') }}</span>
+                    </div>
             </div>
+
+
+
             <div class="form-group">
                 <label class="required" for="agent">{{ trans('cruds.vote.fields.agent') }}</label>
                 <input class="form-control {{ $errors->has('agent') ? 'is-invalid' : '' }}" type="text" name="agent" id="agent" value="{{ old('agent', '') }}" required>

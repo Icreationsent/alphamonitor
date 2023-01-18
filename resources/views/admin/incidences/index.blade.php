@@ -35,7 +35,19 @@
                             {{ trans('cruds.incidence.fields.videos') }}
                         </th>
                         <th>
-                            &nbsp;
+                            &nbsp;Name
+                        </th>
+                        <th>
+                            Phone
+                        </th>
+                        <th>
+                            LGA
+                        </th>
+                        <th>
+                            WARD
+                        </th>
+                        <th>
+                            &nbsp;Actions
                         </th>
                     </tr>
                 </thead>
@@ -65,6 +77,18 @@
                                         {{ trans('global.view_file') }}
                                     </a>
                                 @endforeach
+                            </td>
+                            <td>
+                                    {{ $incidence->name ?? '' }}
+                            </td>
+                            <td>
+                                    {{ $incidence->phone ?? '' }}
+                            </td>
+                            <td>
+                                    {{ $incidence->lga ?? '' }}
+                            </td>
+                            <td>
+                                  {{ $incidence->ward ?? '' }}
                             </td>
                             <td>
                                 @can('incidence_show')

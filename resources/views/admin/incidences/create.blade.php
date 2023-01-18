@@ -25,7 +25,7 @@
 
                     </div>
                         <div class="form-group">
-                         <label class="required" for="name">Your Phone Number <span class="text-danger">*</span></label>
+                         <label class="required" for="phone">Your Phone Number <span class="text-danger">*</span></label>
                             <input class="form-control {{ $errors->has('phone') ? 'is-invalid' : '' }}" type="tel" name="phone" id="phone" value="{{ old('name', '') }}" required>
                             @if($errors->has('phone'))
                                 <div class="invalid-feedback">
@@ -35,7 +35,7 @@
 
                     </div>
                     <div class="form-group">
-                        <label class="required" for="name">Local Government <span class="text-danger">*</span></label>
+                        <label class="required" for="lga">Local Government <span class="text-danger">*</span></label>
                         <select class="js-example-placeholder-multiple form-control " name="lga">
                             <option value="ANINRI">ANINRI</option>
                             <option value="AWGU">AWGU</option>
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="required" for="name">Ward</label>
+                        <label class="required" for="ward">Ward</label>
                         <input class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', '') }}" required>
                         @if($errors->has('ward'))
                             <div class="invalid-feedback">

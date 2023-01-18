@@ -33,7 +33,10 @@ class Incidence extends Model implements HasMedia
 
     protected $fillable = [
         'subject',
-        'observations',
+        'name',
+        'phone',
+        'lga',
+        'ward',
         'created_at',
         'updated_at',
         'deleted_at',

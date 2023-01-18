@@ -46,9 +46,7 @@
                         <th>
                             {{ trans('cruds.vote.fields.number_of_votes') }}
                         </th>
-                        <th>
-                            &nbsp;
-                        </th>
+
                     </tr>
                     <tr>
                         <td>
@@ -92,15 +90,22 @@
                             </td>
                             <td>
 
-{{--                              {{ DB::table('lgas')->where('id', $vote->lga )->get('name') }}--}}
-                              {{ DB::table('lgas')->where('id', $vote->lga )->first()->name }}
+                              {{ DB::table('lgas')->where('id', $vote->lga )->first()->name ?? ''  }}
 
                             </td>
                             <td>
-                                {{ $vote->ward ?? '' }}
+                               @php $find_ward =  DB::table('wards')->where('parent_id', $vote->lga)->first()->name
+                               @endphp
+
+                                {{ $find_ward }}
+
                             </td>
                             <td>
-                                {{ $vote->pooling_unit ?? '' }}
+{{--                                {{ $vote->pooling_unit ?? '' }}--}}
+                                 @php $find_pu =  DB::table('pooling_units')->where('id', $vote->pooling_unit)->first()->pu
+                                  @endphp
+                                {{ $find_pu ?? '' }}
+
                             </td>
                             <td>
                                 {{ $vote->agent ?? '' }}

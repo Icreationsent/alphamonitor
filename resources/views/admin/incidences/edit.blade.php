@@ -10,6 +10,76 @@
         <form method="POST" action="{{ route("admin.incidences.update", [$incidence->id]) }}" enctype="multipart/form-data">
             @method('PUT')
             @csrf
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h5> Update Your details</h5>
+                    <div class="form-group">
+                        <label class="required" for="name">Your Name </label>
+                        <input class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" type="text" name="name" id="name" value="{{ old('name', $incidence->name) }}" required>
+                        @if($errors->has('name'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('name') }}
+                            </div>
+                        @endif
+
+                    </div>
+                    <div class="form-group">
+                        <label class="required" for="phone">Your Phone Number</label>
+                        <input class="form-control {{ $errors->has('phone') ? 'is-invalid' : '' }}" type="tel" name="phone" id="phone" value="{{ old('phone', $incidence->phone) }}" required>
+                        @if($errors->has('phone'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('phone') }}
+                            </div>
+                        @endif
+
+                    </div>
+                    <div class="form-group">
+                        <label class="required" for="lga">Local Government</label>
+                        <select class="js-example-placeholder-multiple form-control " name="lga">
+                            <option value="ANINRI">ANINRI</option>
+                            <option value="AWGU">AWGU</option>
+                            <option value="ENUGU EAST">ENUGU EAST</option>
+                            <option value="ENUGU NORTH">ENUGU NORTH</option>
+                            <option value="IGBO ETITI">IGBO ETITI</option>
+                            <option value="ENUGU SOUTH">ENUGU SOUTH</option>
+                            <option value="EZEAGU">EZEAGU</option>
+                            <option value="IGBO EZE NORTH">IGBO EZE NORTH</option>
+                            <option value="IGBO EZE SOUTH">IGBO EZE SOUTH</option>
+                            <option value="ISI UZO">ISI UZO</option>
+                            <option value="NKANU EAST">NKANU EAST</option>
+                            <option value="NKANU WEST">NKANU WEST</option>
+                            <option value="NSUKKA">NSUKKA</option>
+                            <option value="OJI RIVER">OJI RIVER</option>
+                            <option value="UDENU">UDENU</option>
+                            <option value="UDI">UDI</option>
+                            <option value="UZO-UWANI">UZO-UWANI</option>
+                        </select>
+                        @if($errors->has('lga'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('lga') }}
+                            </div>
+                        @endif
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="required" for="ward">Ward</label>
+                        <input class="form-control {{ $errors->has('ward') ? 'is-invalid' : '' }}" type="text" name="ward" id="ward" value="{{ old('ward', $incidence->ward) }}" required>
+                        @if($errors->has('ward'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('ward') }}
+                            </div>
+                        @endif
+
+                    </div>
+
+
+                </div>
+            <div class="div class col-md-8">
+                <div class="div h5">
+                    Update Report
+                </div>
             <div class="form-group">
                 <label class="required" for="subject">{{ trans('cruds.incidence.fields.subject') }}</label>
                 <input class="form-control {{ $errors->has('subject') ? 'is-invalid' : '' }}" type="text" name="subject" id="subject" value="{{ old('subject', $incidence->subject) }}" required>
@@ -53,9 +123,10 @@
                 <span class="help-block">{{ trans('cruds.incidence.fields.videos_helper') }}</span>
             </div>
             <div class="form-group">
-                <button class="btn btn-danger" type="submit">
-                    {{ trans('global.save') }}
+                <button class="btn btn-lg btn-primary" type="submit">
+                    Update Report
                 </button>
+            </div>
             </div>
         </form>
     </div>
